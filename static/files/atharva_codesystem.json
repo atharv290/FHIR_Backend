@@ -1,0 +1,3683 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "atharva-namaste-codes",
+  "url": "http://atharvajoshi.in/fhir/CodeSystem/namaste",
+  "version": "1.0.0",
+  "name": "AtharvaNAMASTECodeSystem",
+  "title": "Atharva NAMASTE Code System",
+  "status": "active",
+  "publisher": "Atharva Joshi",
+  "content": "complete",
+  "date": "2025-09-15T06:14:12.801770Z",
+  "concept": [
+    {
+      "code": "DIS",
+      "display": "Disorder",
+      "definition": "Disorder"
+    },
+    {
+      "code": "AA",
+      "display": "Kallīral Nōy",
+      "definition": "Hepatic disease"
+    },
+    {
+      "code": "AAA",
+      "display": "Vaḷi",
+      "definition": "Hepatic disease classified under vali humour"
+    },
+    {
+      "code": "AAA1.1",
+      "display": "Vaḷi Kallīral Nōy",
+      "definition": "Hepatomegaly due to vali, if chronic leads to anaemia"
+    },
+    {
+      "code": "AAB",
+      "display": "Aẕal",
+      "definition": "Hepatic disease classified under azhal humour"
+    },
+    {
+      "code": "AAC",
+      "display": "Aiyam",
+      "definition": "Hepatic disease classified under iya humour"
+    },
+    {
+      "code": "ABA",
+      "display": "Vaḷi",
+      "definition": "Jaundice classified under vali humour"
+    },
+    {
+      "code": "ABA1.3",
+      "display": "nan",
+      "definition": "Jaundice due to increased vali and aiyam"
+    },
+    {
+      "code": "ABB",
+      "display": "Aẕal",
+      "definition": "Jaundice classified under azhal Humour"
+    },
+    {
+      "code": "ABC",
+      "display": "Aiyam",
+      "definition": "Jaundice classified under aiyam humour"
+    },
+    {
+      "code": "ABD",
+      "display": "Mukkuṟṟam"
+    },
+    {
+      "code": "ABD1.1",
+      "display": "nan",
+      "definition": "Jaundice due to mukuttram"
+    },
+    {
+      "code": "AC",
+      "display": "Maṇṇīral Nōy",
+      "definition": "Spleen disease"
+    },
+    {
+      "code": "ACA",
+      "display": "Vaḷi",
+      "definition": "Spleen disease classified under vali humour"
+    },
+    {
+      "code": "ACB",
+      "display": "Aẕal",
+      "definition": "Spleen disease classified under azhal humour"
+    },
+    {
+      "code": "ACC",
+      "display": "Aiyam",
+      "definition": "Spleen disease classified under aiyam humour"
+    },
+    {
+      "code": "ACD",
+      "display": "Mukkuṟṟam",
+      "definition": "Spleen disease classified under mukkutram humour"
+    },
+    {
+      "code": "ACD1.1",
+      "display": "Mukkuṟṟa Maṇṇīral Nōy",
+      "definition": "Spleenomegaly due to mukuttram,may be fatal"
+    },
+    {
+      "code": "ADA",
+      "display": "Vaḷi",
+      "definition": "Thirst disease classified under vali humour"
+    },
+    {
+      "code": "ADB",
+      "display": "Aẕal",
+      "definition": "Thirst disease classified under azhal humour"
+    },
+    {
+      "code": "ADC",
+      "display": "Aiyam",
+      "definition": "Thirst disease classified under aiyam humour"
+    },
+    {
+      "code": "ADD",
+      "display": "Mukkuṟṟam",
+      "definition": "Thirst disease classified under mukkutram humour"
+    },
+    {
+      "code": "AEA",
+      "display": "Vaḷi",
+      "definition": "Anasarca classified under vali humour"
+    },
+    {
+      "code": "AEB",
+      "display": "Aẕal",
+      "definition": "Anasarca classified under azhal humour"
+    },
+    {
+      "code": "AEC",
+      "display": "Aiyam",
+      "definition": "Anasarca classified under aiyam humour"
+    },
+    {
+      "code": "AED",
+      "display": "Mukkuṟṟam",
+      "definition": "Anasarca classified under mukkutram humour"
+    },
+    {
+      "code": "BA",
+      "display": "Akki",
+      "definition": "Herpes zooster"
+    },
+    {
+      "code": "BAA",
+      "display": "Vaḷi",
+      "definition": "Herper zooster classified under Vali"
+    },
+    {
+      "code": "BAA1.1",
+      "display": "Akki",
+      "definition": "Herpes zooster"
+    },
+    {
+      "code": "BB",
+      "display": "Akkuḷ Ericcal Kaṭṭi",
+      "definition": "Abcess in the axilla"
+    },
+    {
+      "code": "BBB",
+      "display": "Aẕal",
+      "definition": "Abcess classified under azhal"
+    },
+    {
+      "code": "BBB1.1",
+      "display": "Akkuḷ Ericcal Kaṭṭi",
+      "definition": "Abcess in the axilla with burning"
+    },
+    {
+      "code": "BBB1.2",
+      "display": "Akkuḷ Kaṭṭi",
+      "definition": "Abcess in the axilla"
+    },
+    {
+      "code": "BCA",
+      "display": "Vaḷi",
+      "definition": "Rougness of skin classified under vali"
+    },
+    {
+      "code": "BD",
+      "display": "Kāḷañcakappaṭai",
+      "definition": "Psoriasis"
+    },
+    {
+      "code": "BDB",
+      "display": "Aẕal",
+      "definition": "Psoriasis classified under azhal"
+    },
+    {
+      "code": "BDB1.1",
+      "display": "Kāḷañcakappaṭai",
+      "definition": "Psoriasis"
+    },
+    {
+      "code": "BE",
+      "display": "Kāṇākkaṭi",
+      "definition": "Utricaria"
+    },
+    {
+      "code": "BEB",
+      "display": "Aẕal",
+      "definition": "Utricaria classified under azhal"
+    },
+    {
+      "code": "BEB1.1",
+      "display": "Kāṇākkaṭi",
+      "definition": "Utricaria"
+    },
+    {
+      "code": "BF",
+      "display": "Karappāṉ",
+      "definition": "Eczema"
+    },
+    {
+      "code": "BFA",
+      "display": "Vaḷi",
+      "definition": "Eczema classified under vali"
+    },
+    {
+      "code": "BFA1.1",
+      "display": "Kapāla Karuṅkarappaṉ",
+      "definition": "Hyperpigmentation of skin in the scalp"
+    },
+    {
+      "code": "BFA1.3",
+      "display": "Timirvātak Karappāṉ",
+      "definition": "Eczema with joint pain"
+    },
+    {
+      "code": "BFA1.4",
+      "display": "Vali Kapālak Karappāṉ",
+      "definition": "Eczema occurred in scalp due to increased vali"
+    },
+    {
+      "code": "BFA1.6",
+      "display": "Vātak Karappāṉ",
+      "definition": "Eczema caused by increased vali"
+    },
+    {
+      "code": "BFB",
+      "display": "Azhal",
+      "definition": "Eczema classified under azhal"
+    },
+    {
+      "code": "BFB1.2",
+      "display": "Aẕal Kapālak Karappāṉ",
+      "definition": "Ezema occurred in scalp due to increased azhal"
+    },
+    {
+      "code": "BFB1.4",
+      "display": "Pittak Karappāṉ",
+      "definition": "Eczema caused by increased azhal"
+    },
+    {
+      "code": "BFC",
+      "display": "Aiyam",
+      "definition": "Eczema classified under aiyam"
+    },
+    {
+      "code": "BFC1.3",
+      "display": "Cilēttumakkarappāṉ",
+      "definition": "Eczema caused by increase aiyam"
+    },
+    {
+      "code": "BG",
+      "display": "Kaṭṭi",
+      "definition": "Abcess"
+    },
+    {
+      "code": "BGB",
+      "display": "Aẕal",
+      "definition": "Abcess classified under azhal"
+    },
+    {
+      "code": "BGB1.1",
+      "display": "Kaṭṭi",
+      "definition": "Abcess"
+    },
+    {
+      "code": "BGB1.3",
+      "display": "Kallīral Kaṭṭi",
+      "definition": "abcess in the Liver"
+    },
+    {
+      "code": "BGB1.8",
+      "display": "Toṭai Iṭukku Kaṭṭi",
+      "definition": "abcess in the Inguinal Region"
+    },
+    {
+      "code": "BGB1.9",
+      "display": "Aṇṭakkaṭṭi",
+      "definition": "abcess in the scrotum"
+    },
+    {
+      "code": "BGB1.10",
+      "display": "Eruvāykkaṭṭi",
+      "definition": "abcess in and around the anus"
+    },
+    {
+      "code": "BH",
+      "display": "Koppuḷam",
+      "definition": "Boils"
+    },
+    {
+      "code": "BHB",
+      "display": "Aẕal",
+      "definition": "Boils classified under azhal"
+    },
+    {
+      "code": "BHB1.1",
+      "display": "Akkuḷ Koppuḷam",
+      "definition": "Boils in the axilla"
+    },
+    {
+      "code": "BHB1.2",
+      "display": "Ammai Koppuḷam",
+      "definition": "Chicken pox blisters"
+    },
+    {
+      "code": "BI",
+      "display": "Kuṭṭam",
+      "definition": "Skin lesion"
+    },
+    {
+      "code": "BIA",
+      "display": "Vaḷi",
+      "definition": "Skin lesion classified under vali"
+    },
+    {
+      "code": "BIA1.1",
+      "display": "Kapāla Karuṅkuṭṭam",
+      "definition": "Hyperpigmentation of skin in the scalp"
+    },
+    {
+      "code": "BIA1.2",
+      "display": "Kapāla Viṭak Kuṭṭam",
+      "definition": "Thickening of scalp skin due to toxins"
+    },
+    {
+      "code": "BJ",
+      "display": "Maccam",
+      "definition": "Mole"
+    },
+    {
+      "code": "BJA",
+      "display": "Vaḷi",
+      "definition": "Mole classified under vali"
+    },
+    {
+      "code": "BJA1.1",
+      "display": "Maccam",
+      "definition": "Mole"
+    },
+    {
+      "code": "BK",
+      "display": "Maruḷ",
+      "definition": "Wart"
+    },
+    {
+      "code": "BKA",
+      "display": "Vaḷi",
+      "definition": "Wart classified under vali"
+    },
+    {
+      "code": "BKA1.1",
+      "display": "Maruḷ",
+      "definition": "Wart"
+    },
+    {
+      "code": "BL",
+      "display": "Mayir Utiral",
+      "definition": "Hair loss"
+    },
+    {
+      "code": "BLA",
+      "display": "Vaḷi",
+      "definition": "Hair loss classified under vali"
+    },
+    {
+      "code": "BLA1.1",
+      "display": "Mayir Utiral",
+      "definition": "Hair loss"
+    },
+    {
+      "code": "BM",
+      "display": "Mukapparu",
+      "definition": "Acne"
+    },
+    {
+      "code": "BMB",
+      "display": "Azhal",
+      "definition": "Acne classified under azhal"
+    },
+    {
+      "code": "BMB1.1",
+      "display": "Mukapparu",
+      "definition": "Acne"
+    },
+    {
+      "code": "BNC",
+      "display": "Aiyam",
+      "definition": "Grey hair classified under aiyam"
+    },
+    {
+      "code": "BO",
+      "display": "Pāl Uṉṉi",
+      "definition": "Molluscum"
+    },
+    {
+      "code": "BOA",
+      "display": "Vaḷi",
+      "definition": "Molluscum classified under vali"
+    },
+    {
+      "code": "BOA1.1",
+      "display": "Pāl Uṉṉi",
+      "definition": "Molluscum"
+    },
+    {
+      "code": "BQ",
+      "display": "Paṭartāmarai",
+      "definition": "Ring worm infection"
+    },
+    {
+      "code": "BQC",
+      "display": "Aiyam",
+      "definition": "Ring worm infection classified under aiyam"
+    },
+    {
+      "code": "BQC1.1",
+      "display": "Paṭartāmarai",
+      "definition": "Ring worm infection"
+    },
+    {
+      "code": "BR",
+      "display": "Pēṉkaḷ",
+      "definition": "Lice"
+    },
+    {
+      "code": "BRA",
+      "display": "Vaḷi",
+      "definition": "Lice classified under Vali"
+    },
+    {
+      "code": "BRA1.1",
+      "display": "Pēṉkaḷ",
+      "definition": "Pediculosis"
+    },
+    {
+      "code": "BS",
+      "display": "Perunōy",
+      "definition": "Skin eruptions"
+    },
+    {
+      "code": "BSA",
+      "display": "Vaḷi",
+      "definition": "Skin eruptions classified under vali"
+    },
+    {
+      "code": "BSB",
+      "display": "Azhal",
+      "definition": "Skin eruptions classified under azhal"
+    },
+    {
+      "code": "BSC",
+      "display": "Aiyam",
+      "definition": "Skin eruptions classified under aiyam"
+    },
+    {
+      "code": "BT",
+      "display": "Veṇpaṭai",
+      "definition": "Leucoderma"
+    },
+    {
+      "code": "BTA",
+      "display": "Vaḷi",
+      "definition": "Leucoderma classified under vali"
+    },
+    {
+      "code": "BTB",
+      "display": "Azhal",
+      "definition": "Leucoderma classified under azhal"
+    },
+    {
+      "code": "BTC",
+      "display": "Aiyam",
+      "definition": "Leucoderma classified undre aiyam"
+    },
+    {
+      "code": "BUA",
+      "display": "Vaḷi",
+      "definition": "Miscellanous skin diseases classified under vali"
+    },
+    {
+      "code": "BUA1.1",
+      "display": "Poṭuku",
+      "definition": "Dandruff"
+    },
+    {
+      "code": "BUA1.2",
+      "display": "Puẕuveṭṭu",
+      "definition": "Alopecia"
+    },
+    {
+      "code": "BUA1.3",
+      "display": "Tōḷ Vaṟaṭci",
+      "definition": "Dryness of skin"
+    },
+    {
+      "code": "BUA1.4",
+      "display": "Tōḷtaṭippu",
+      "definition": "Thickness of the skin"
+    },
+    {
+      "code": "BUB",
+      "display": "Azhal",
+      "definition": "Miscellanous skin diseases classified under azhal"
+    },
+    {
+      "code": "BUB1.1",
+      "display": "Tāpitam",
+      "definition": "Inflammation"
+    },
+    {
+      "code": "BUB1.2",
+      "display": "Tēmal",
+      "definition": "Tinea versicolor"
+    },
+    {
+      "code": "BUB1.4",
+      "display": "Mēkat Taẕumpu",
+      "definition": "Scar caused by veneral ulcers"
+    },
+    {
+      "code": "BUB1.5",
+      "display": "Taẕumpu",
+      "definition": "Scar"
+    },
+    {
+      "code": "BUB1.6",
+      "display": "Vērkkuru",
+      "definition": "Prickly heat"
+    },
+    {
+      "code": "BUB1.8",
+      "display": "Pittaveṭippu",
+      "definition": "Cracks in the sole"
+    },
+    {
+      "code": "BV",
+      "display": "Cilaippuṇ",
+      "definition": "Neurotrophic Ulcer"
+    },
+    {
+      "code": "BVA",
+      "display": "Vaḷi",
+      "definition": "Neurotrophic Ulcer classified under vali"
+    },
+    {
+      "code": "BVB",
+      "display": "Azhal",
+      "definition": "Neurotrophic Ulcer classified under azhal"
+    },
+    {
+      "code": "BVC",
+      "display": "Aiyam",
+      "definition": "Neurotrophic Ulcer classified under aiyyam"
+    },
+    {
+      "code": "BWB",
+      "display": "Azhal"
+    },
+    {
+      "code": "BWB1.2",
+      "display": "Puṇ",
+      "definition": "Wound"
+    },
+    {
+      "code": "CA",
+      "display": "Kīḷ Vāyu",
+      "definition": "Arthritis"
+    },
+    {
+      "code": "CAA",
+      "display": "Vaḷi",
+      "definition": "Arthritis classified under vali"
+    },
+    {
+      "code": "CAB",
+      "display": "Aẕal",
+      "definition": "Arthritis classified under azhal"
+    },
+    {
+      "code": "CAB1.1",
+      "display": "Aẕal Kīḷ Vāyu",
+      "definition": "Osteoarthritis"
+    },
+    {
+      "code": "CAC",
+      "display": "Aiyam",
+      "definition": "Arthritis classified under aiyam"
+    },
+    {
+      "code": "CAD",
+      "display": "Mukkuṟṟam",
+      "definition": "Arthritis classified under mukkutram"
+    },
+    {
+      "code": "DAA",
+      "display": "Vaḷi",
+      "definition": "Bronchilal asthma classified under vali"
+    },
+    {
+      "code": "DAC",
+      "display": "Aiyam",
+      "definition": "Bronchilal asthma classified under aiyam"
+    },
+    {
+      "code": "DAD",
+      "display": "Mukkuṟṟam",
+      "definition": "Bronchilal asthma classified under mukkutram"
+    },
+    {
+      "code": "DBA",
+      "display": "Vaḷi",
+      "definition": "Cough classified under vali"
+    },
+    {
+      "code": "DBB",
+      "display": "Aẕal",
+      "definition": "Cough classified under azhal"
+    },
+    {
+      "code": "DBC",
+      "display": "Aiyam",
+      "definition": "Cough classified under aiyam"
+    },
+    {
+      "code": "DBD",
+      "display": "Mukkuṟṟam",
+      "definition": "Cough classified under mukkutram"
+    },
+    {
+      "code": "DC",
+      "display": "Kural Kammal",
+      "definition": "Hoarseness of Voice"
+    },
+    {
+      "code": "DCA",
+      "display": "Vaḷi",
+      "definition": "Hoarseness of voice classified under vali"
+    },
+    {
+      "code": "DCB",
+      "display": "Aẕal",
+      "definition": "Hoarseness of voice classified under azhal"
+    },
+    {
+      "code": "DCC",
+      "display": "Aiyam",
+      "definition": "Hoarseness of voice classified under aiyam"
+    },
+    {
+      "code": "DCC1.3",
+      "display": "Niṇak Kural Kammal",
+      "definition": "Hoarseness of voice caused by increased lymph"
+    },
+    {
+      "code": "DCD",
+      "display": "Mukkuṟṟam",
+      "definition": "Hoarseness of voice classified under mukkutram"
+    },
+    {
+      "code": "DDA",
+      "display": "Vaḷi",
+      "definition": "Sinusitis classified under vali"
+    },
+    {
+      "code": "DDB",
+      "display": "Aẕal",
+      "definition": "Sinusitis classified under azhal"
+    },
+    {
+      "code": "DDB1.2",
+      "display": "Kuruti Mūkkaṭaippu",
+      "definition": "Sinusitis associated with nasal bleeding"
+    },
+    {
+      "code": "DDC",
+      "display": "Aiyam",
+      "definition": "Sinusitis classified under aiyam"
+    },
+    {
+      "code": "EAA",
+      "display": "Vaḷi",
+      "definition": "Piles classified under vali humour"
+    },
+    {
+      "code": "EAA1.2",
+      "display": "Eruvāyc Ceṇṭu Muḷai",
+      "definition": "External piles with growth in the size of amorphollous"
+    },
+    {
+      "code": "EAA1.3",
+      "display": "Eruvāy Perumuḷai",
+      "definition": "External piles with growth in the size of curcuma longa"
+    },
+    {
+      "code": "EAA1.4",
+      "display": "Tamaraka Muḷai",
+      "definition": "External bleeding piles with growth in the size of lotus flower"
+    },
+    {
+      "code": "EAA1.5",
+      "display": "Vaḷi Muḷai",
+      "definition": "Piles caused by derangement of vali"
+    },
+    {
+      "code": "EAA1.6",
+      "display": "Viṉai Muḷai",
+      "definition": "Piles associated with neurological pain and belching"
+    },
+    {
+      "code": "EAA1.7",
+      "display": "Kaẕal Muḷai",
+      "definition": "Piles associated with penile ulcers"
+    },
+    {
+      "code": "EAA1.8",
+      "display": "Aṭittaḷḷal",
+      "definition": "External piles with growth in the size of bamboo bud and bloody pus discharge"
+    },
+    {
+      "code": "EAA1.9",
+      "display": "Curukku Muḷai",
+      "definition": "Piles associated with intestinal pain and increased body heat"
+    },
+    {
+      "code": "EAB",
+      "display": "Aẕal",
+      "definition": "Piles classified under Azhal humour"
+    },
+    {
+      "code": "EAB1.1",
+      "display": "Aẕal Mūḷai",
+      "definition": "Piles caused by derangement of Azhal"
+    },
+    {
+      "code": "EAB1.2",
+      "display": "Eruvāy Varal Muḷai",
+      "definition": "External piles with dryness"
+    },
+    {
+      "code": "EAB1.3",
+      "display": "Kuruti Muḷai",
+      "definition": "Bleeding piles"
+    },
+    {
+      "code": "EAB1.4",
+      "display": "Cīẕ Muḷai",
+      "definition": "Piles with pus exudates from anus"
+    },
+    {
+      "code": "EAB1.5",
+      "display": "Mēka Muḷai",
+      "definition": "Piles associated with glycosuria"
+    },
+    {
+      "code": "EAC",
+      "display": "Aiyam",
+      "definition": "Piles classified under Aiyam humour"
+    },
+    {
+      "code": "EAC1.1",
+      "display": "Aiya Muḷai",
+      "definition": "Piles caused by derangement of Aiyam"
+    },
+    {
+      "code": "EAC1.2",
+      "display": "Eruvāy Ciṟu Muḷai",
+      "definition": "External piles with growth in the small"
+    },
+    {
+      "code": "EAC1.3",
+      "display": "Kuẕi Muḷai",
+      "definition": "External piles with growth in the size of coocinia grandis and pus discharge"
+    },
+    {
+      "code": "EAC1.4",
+      "display": "Veḷi Muḷai",
+      "definition": "External piles with numerous acne size growth around the anus"
+    },
+    {
+      "code": "EAC1.5",
+      "display": "Cavvu Muḷai",
+      "definition": "external piles with skin tag"
+    },
+    {
+      "code": "EB",
+      "display": "Kuṉmam",
+      "definition": "Gatsirc disorder"
+    },
+    {
+      "code": "EBA",
+      "display": "Vaḷi",
+      "definition": "Gatsirc disorder classified under Vali humour"
+    },
+    {
+      "code": "EBA1.1",
+      "display": "Vali Kuṉmam",
+      "definition": "Gastric disorder associated pain in the rib cage"
+    },
+    {
+      "code": "EBA1.2",
+      "display": "Vaḷi Kuṉmam",
+      "definition": "Gastric disorder due to derrangement of vali"
+    },
+    {
+      "code": "EBA1.3",
+      "display": "Kāl Kuṉmam",
+      "definition": "Gastric disorder due to increased flattulence"
+    },
+    {
+      "code": "EBB",
+      "display": "Aẕal",
+      "definition": "Gatsirc disorder classified under Azhal humour"
+    },
+    {
+      "code": "EBB1.1",
+      "display": "Aẕal Kuṉmam",
+      "definition": "Gastric disorder due to derrangement of azhal"
+    },
+    {
+      "code": "EBB1.2",
+      "display": "Ēṟi Kuṉmam",
+      "definition": "Peptic ulcer"
+    },
+    {
+      "code": "EBB1.3",
+      "display": "Vānti Kuṉmam",
+      "definition": "Gastric disorder with vomiting"
+    },
+    {
+      "code": "EBC",
+      "display": "Aiyam",
+      "definition": "Gatsirc disorder classified under Aiyam humour"
+    },
+    {
+      "code": "EBC1.1",
+      "display": "Aiya Kuṉmam",
+      "definition": "Gastric disorder due to derrangement of aiyyam"
+    },
+    {
+      "code": "EBD",
+      "display": "Mukkuṟṟam",
+      "definition": "Gatsirc disorder classified under mukkutram"
+    },
+    {
+      "code": "EBD1.1",
+      "display": "Mukkuṟṟa Kuṉmam",
+      "definition": "Gastric disorder due to derrangement of mukkutram"
+    },
+    {
+      "code": "EC",
+      "display": "Kaṭuppukkaẕiccal",
+      "definition": "Loose stools with blood and pus"
+    },
+    {
+      "code": "ECB",
+      "display": "Aẕal",
+      "definition": "Loose stools with blood and pus classified under Azhal humour"
+    },
+    {
+      "code": "ECB1.1",
+      "display": "Kaṭuppukkaẕiccal",
+      "definition": "Loose stools with blood and pus"
+    },
+    {
+      "code": "EDA",
+      "display": "Vaḷi",
+      "definition": "Digestive disorder classified under vali"
+    },
+    {
+      "code": "EDB",
+      "display": "Aẕal",
+      "definition": "Digestive disorder classified under Azhal"
+    },
+    {
+      "code": "EDC",
+      "display": "Aiyam",
+      "definition": "Digestive disorder classified under Aiyam"
+    },
+    {
+      "code": "EE",
+      "display": "Niṇak Kaẕiccal",
+      "definition": "Dysentry"
+    },
+    {
+      "code": "EEA",
+      "display": "Vaḷi",
+      "definition": "Dysentry classified under vali"
+    },
+    {
+      "code": "EEB",
+      "display": "Aẕal",
+      "definition": "Dysentry classified under Azhal"
+    },
+    {
+      "code": "EEB1.3",
+      "display": "Ericcal Niṇak Kaẕiccal",
+      "definition": "Dysentry presenting persisitent wetness around anus"
+    },
+    {
+      "code": "EEB1.4",
+      "display": "Cūl Niṇak Kaẕiccal",
+      "definition": "Dysentry occuring in pregnancy"
+    },
+    {
+      "code": "EEC",
+      "display": "Aiyam",
+      "definition": "Dysentry classified under Aiyam"
+    },
+    {
+      "code": "EED",
+      "display": "Mukkuṟṟam",
+      "definition": "Dysentry classified under Mukkutram"
+    },
+    {
+      "code": "EF",
+      "display": "Peruṅ Kaẕiccal",
+      "definition": "Loose stools"
+    },
+    {
+      "code": "EFA",
+      "display": "Vaḷi",
+      "definition": "loose stools classified under vali"
+    },
+    {
+      "code": "EFA1.1",
+      "display": "Vaḷipperuṅ Kaẕiccal",
+      "definition": "Loose stools caused by derangement of Vali"
+    },
+    {
+      "code": "EFA1.2",
+      "display": "Curapperuṅ Kaẕiccal",
+      "definition": "Loose stools occuring in fever"
+    },
+    {
+      "code": "EFB",
+      "display": "Aẕal",
+      "definition": "Loose stools classified under Azhal"
+    },
+    {
+      "code": "EFB1.1",
+      "display": "Aẕal Peruṅ Kaẕiccal",
+      "definition": "Loose stools caused by derangement of Azhal"
+    },
+    {
+      "code": "EFB1.2",
+      "display": "Kuruti Peruṅ Kaẕiccal",
+      "definition": "Bloody loose stools"
+    },
+    {
+      "code": "EFB1.3",
+      "display": "Payam Peruṅ Kaẕiccal",
+      "definition": "Loose stools occuring in fearness"
+    },
+    {
+      "code": "EFC",
+      "display": "Aiyam",
+      "definition": "Loose stools classified under Aiyam"
+    },
+    {
+      "code": "EFC1.1",
+      "display": "Aiya Peruṅ Kaẕiccal",
+      "definition": "Loose stools caused by derangement of Aiyam"
+    },
+    {
+      "code": "EFD",
+      "display": "Mukkuṟṟam",
+      "definition": "Loose stools classified under Mukkutram"
+    },
+    {
+      "code": "EFD1.1",
+      "display": "Mukkuṟṟa Peruṅ Kaẕiccal",
+      "definition": "Loose stools caused by derangement of Mukkutram"
+    },
+    {
+      "code": "EG",
+      "display": "Ceriyāmai",
+      "definition": "Indigestion"
+    },
+    {
+      "code": "EGA",
+      "display": "Vaḷi",
+      "definition": "Indigestion classified under of vali"
+    },
+    {
+      "code": "EGB",
+      "display": "Aẕal",
+      "definition": "Indigestion classified under of Azhal"
+    },
+    {
+      "code": "EGC",
+      "display": "Aiyam",
+      "definition": "Indigestion classified under of Aiyam"
+    },
+    {
+      "code": "EGD",
+      "display": "Mukkuṟṟam",
+      "definition": "Indigestion classified under of mukkutram"
+    },
+    {
+      "code": "EHA",
+      "display": "Vaḷi",
+      "definition": "Ageusia classified under vali"
+    },
+    {
+      "code": "EHB",
+      "display": "Aẕal",
+      "definition": "Ageusia classified under azhal"
+    },
+    {
+      "code": "EHC",
+      "display": "Aiyam",
+      "definition": "Ageusia classified under Aiyam"
+    },
+    {
+      "code": "EHD",
+      "display": "Mukkuṟṟam",
+      "definition": "Ageusia classified under mukkutram"
+    },
+    {
+      "code": "EI",
+      "display": "Vānti",
+      "definition": "Vomiting"
+    },
+    {
+      "code": "EIA",
+      "display": "Vaḷi",
+      "definition": "Vomiting classified under vali"
+    },
+    {
+      "code": "EIA1.1",
+      "display": "Vaḷi Vānti",
+      "definition": "Vomiting due to derrangement of vali"
+    },
+    {
+      "code": "EIB",
+      "display": "Aẕal",
+      "definition": "Vomiting classified under Azhal"
+    },
+    {
+      "code": "EIB1.4",
+      "display": "Kuruti Vānti",
+      "definition": "Hemetemesis"
+    },
+    {
+      "code": "EIB1.6",
+      "display": "Puẕu Vānti",
+      "definition": "Vomitting due to helmenthic infections"
+    },
+    {
+      "code": "EIB1.7",
+      "display": "Cūl Vānti",
+      "definition": "Nausea gravidarum"
+    },
+    {
+      "code": "EIC",
+      "display": "Aiyam",
+      "definition": "Vomiting classified under Aiyam"
+    },
+    {
+      "code": "EID",
+      "display": "Mukkuṟṟam",
+      "definition": "Vomiting classified under mukkuttram"
+    },
+    {
+      "code": "EJA",
+      "display": "Vaḷi",
+      "definition": "Hiccups classified under Vali"
+    },
+    {
+      "code": "EJB",
+      "display": "Aẕal",
+      "definition": "Hiccups classified under Azhal"
+    },
+    {
+      "code": "EJC",
+      "display": "Aiyam",
+      "definition": "Hiccups classified under Aiyam"
+    },
+    {
+      "code": "EJD",
+      "display": "Mukkuṟṟam",
+      "definition": "Hiccups classified under mukkutram"
+    },
+    {
+      "code": "FAD",
+      "display": "Mukkuṟṟam",
+      "definition": "Delirium classified under mukkutram"
+    },
+    {
+      "code": "FAD1.8",
+      "display": "Karṇika Caṉṉi",
+      "definition": "Delirium with otitis"
+    },
+    {
+      "code": "FAD1.13",
+      "display": "Apiniyāca Caṉṉi",
+      "definition": "Delirium with dysfunction of panchendriyam due to Iyam"
+    },
+    {
+      "code": "FB",
+      "display": "Vaḷippu",
+      "definition": "Epilepsy"
+    },
+    {
+      "code": "FBD",
+      "display": "Mukkuṟṟam",
+      "definition": "Epilepsy classified under mukkuttram"
+    },
+    {
+      "code": "FBD1.4",
+      "display": "Kākkai Valippu",
+      "definition": "Epilepsy due to aiyam"
+    },
+    {
+      "code": "GA",
+      "display": "Tāpitam",
+      "definition": "Inflammation"
+    },
+    {
+      "code": "GAA",
+      "display": "Aẕal",
+      "definition": "Inflammation classified under Azhal"
+    },
+    {
+      "code": "GAA1.1",
+      "display": "Ciṉaippai Tāpitam",
+      "definition": "Oophoritis"
+    },
+    {
+      "code": "GAA1.2",
+      "display": "Akal Tāpitam",
+      "definition": "Vulvitis"
+    },
+    {
+      "code": "GAA1.3",
+      "display": "Yōṉi Tāpitam",
+      "definition": "Vaginitis"
+    },
+    {
+      "code": "GAA1.4",
+      "display": "Yōṉi-Akal Tāpitam",
+      "definition": "Vulvo vaginitis"
+    },
+    {
+      "code": "GAA1.6",
+      "display": "Karuppai Uḷkavaca Tāpitam",
+      "definition": "Uterine endometritis"
+    },
+    {
+      "code": "GBA",
+      "display": "Vaḷi",
+      "definition": "Amenorrhoea classified under Vali"
+    },
+    {
+      "code": "GC",
+      "display": "Cūtaka Vaḷi",
+      "definition": "Dysmennorrhoea"
+    },
+    {
+      "code": "GCA",
+      "display": "Vaḷi",
+      "definition": "Dysmennorrhea classified under vali"
+    },
+    {
+      "code": "GCA1.1",
+      "display": "Aka Cūtaka Vaḷi",
+      "definition": "Dysmennorrhea due to reproductive organ diseases"
+    },
+    {
+      "code": "GD",
+      "display": "Kaẕalai",
+      "definition": "Tumour"
+    },
+    {
+      "code": "GDC",
+      "display": "Aiyam",
+      "definition": "Tumour classified under aiyam"
+    },
+    {
+      "code": "GDC1.1",
+      "display": "Karuppaitacai Vaṉkaẕalai",
+      "definition": "Endometrial carcinoma/sarcoma"
+    },
+    {
+      "code": "GDC1.2",
+      "display": "Karuppai Kāmpu Kaẕalai",
+      "definition": "Tumors in cervix"
+    },
+    {
+      "code": "GE",
+      "display": "Karppa Kirāṇi",
+      "definition": "Diarrhoea during pregnancy"
+    },
+    {
+      "code": "GEA",
+      "display": "Vaḷi",
+      "definition": "Diarrhoea during pregnancy classified under vali"
+    },
+    {
+      "code": "GEA1.1",
+      "display": "Karppa Kirāṇi",
+      "definition": "Diarrhoea during pregnancy"
+    },
+    {
+      "code": "GF",
+      "display": "Perumpāṭu",
+      "definition": "Menorrhagia"
+    },
+    {
+      "code": "GFA",
+      "display": "Vaḷi",
+      "definition": "Uterine bleeding classified under Vali"
+    },
+    {
+      "code": "GFB",
+      "display": "Aẕal",
+      "definition": "Menorrhagia classified under azhal"
+    },
+    {
+      "code": "GFB1.1",
+      "display": "Pitta Perumpāṭu",
+      "definition": "Menorrhagia due to increased azhal"
+    },
+    {
+      "code": "GFB1.2",
+      "display": "Acātāraṇa Perumpāṭu",
+      "definition": "Dysfunctional uterine Bleeding"
+    },
+    {
+      "code": "GFB1.3",
+      "display": "Cātāraṇa Perumpāṭu",
+      "definition": "Abnormal uterine bleeding"
+    },
+    {
+      "code": "GFC",
+      "display": "Aiyam",
+      "definition": "Menorrhagia classified under aiyam"
+    },
+    {
+      "code": "GFD",
+      "display": "Mukkuṟṟam",
+      "definition": "Menorrhagia classified under Mukkutram"
+    },
+    {
+      "code": "GGB",
+      "display": "Aẕal",
+      "definition": "Leucorrhea classified under azhal"
+    },
+    {
+      "code": "GHA",
+      "display": "Vaḷi",
+      "definition": "Vaginal diseases classified under vali"
+    },
+    {
+      "code": "GHA1.1",
+      "display": "Cūlai Yōṉi",
+      "definition": "Vaginismus"
+    },
+    {
+      "code": "GHB",
+      "display": "Aẕal",
+      "definition": "Vaginal Diseases classified under Azhal"
+    },
+    {
+      "code": "GHC",
+      "display": "Aiyam",
+      "definition": "Vaginal Diseases classified under aiyam"
+    },
+    {
+      "code": "HAA",
+      "display": "Vaḷi",
+      "definition": "Disorders of Nose classified under vali"
+    },
+    {
+      "code": "HAA1.1",
+      "display": "Karappāṉ",
+      "definition": "Eczema of the nose"
+    },
+    {
+      "code": "HAA1.2",
+      "display": "Piḷavai",
+      "definition": "Carbuncle present in the nose"
+    },
+    {
+      "code": "HAC",
+      "display": "Aiyam",
+      "definition": "Disorders of Nose classified under aiyam"
+    },
+    {
+      "code": "HAC1.1",
+      "display": "Nācikāpīṭam",
+      "definition": "Rhinitis with headache due to increasing aiyam"
+    },
+    {
+      "code": "HAC1.2",
+      "display": "Kaẕalai",
+      "definition": "Nasal polyp"
+    },
+    {
+      "code": "HAC1.3",
+      "display": "Paru",
+      "definition": "Acne"
+    },
+    {
+      "code": "HBA",
+      "display": "Vaḷi",
+      "definition": "Disorders of ear classified under vali"
+    },
+    {
+      "code": "HBA1.1",
+      "display": "Curōṇita Cevivaḷi",
+      "definition": "Auricular Perichondritis due to increasing vali"
+    },
+    {
+      "code": "HBA1.3",
+      "display": "Ceviviṟai Vaḷi",
+      "definition": "External ear swelling due to increasing vali"
+    },
+    {
+      "code": "HBA1.6",
+      "display": "Tēmalkātu Karappāṉ",
+      "definition": "Eczema with scaling around the ear due to increasing vali"
+    },
+    {
+      "code": "HBA1.18",
+      "display": "Kuruti Cevi Paru",
+      "definition": "Boils with accumulation of blood around the ear due to increasing vali"
+    },
+    {
+      "code": "HBB",
+      "display": "Aẕal",
+      "definition": "Disorders of ear classified under azhal"
+    },
+    {
+      "code": "HBC",
+      "display": "Aiyam",
+      "definition": "Disorders of ear classified under aiyam"
+    },
+    {
+      "code": "HBC1.4",
+      "display": "Aiyam",
+      "definition": "Disorders of ear classified under aaiyam"
+    },
+    {
+      "code": "HBC1.5",
+      "display": "Cīẕ Cevi Eẕucci",
+      "definition": "Inflammation of eustachian tube with discharge due to increased aiyam"
+    },
+    {
+      "code": "HBD",
+      "display": "Mukkuṟṟam",
+      "definition": "Disorders of ear classified under Mukkutram"
+    },
+    {
+      "code": "HCA",
+      "display": "Vaḷi",
+      "definition": "Disorders of lips classified under vali"
+    },
+    {
+      "code": "HCA1.1",
+      "display": "Vaḷi Utaṭunōy",
+      "definition": "Dryness of the Lips due to increasing vali"
+    },
+    {
+      "code": "HCB",
+      "display": "Aẕal",
+      "definition": "Disorders of lips classified under Azhal"
+    },
+    {
+      "code": "HCC",
+      "display": "Aiyam",
+      "definition": "Disorders of lips classified under Aiyam"
+    },
+    {
+      "code": "HCC1.4",
+      "display": "Utaṭṭil Aṭipaṭṭa Vīkkam",
+      "definition": "Swelling of the lips by injury due to derangment of Aiyam"
+    },
+    {
+      "code": "HCD",
+      "display": "Mukkuṟṟam",
+      "definition": "Disorders of lips classified under Mukkutram"
+    },
+    {
+      "code": "HD",
+      "display": "Nākku Nōykaḷ",
+      "definition": "Disorders of Tongue"
+    },
+    {
+      "code": "HDB",
+      "display": "Aẕal",
+      "definition": "Disorders of Tongue classified under Azhal"
+    },
+    {
+      "code": "HDB1.1",
+      "display": "Nākku Nōykaḷ",
+      "definition": "Lingular diseases due to increasing azhal"
+    },
+    {
+      "code": "JAB",
+      "display": "Aẕal",
+      "definition": "Measles classified under Azhal"
+    },
+    {
+      "code": "JAC",
+      "display": "Aiyam",
+      "definition": "Measles classified under Aiyam"
+    },
+    {
+      "code": "JAD",
+      "display": "Mukkuṟṟam",
+      "definition": "Measles classified under Mukkutram"
+    },
+    {
+      "code": "JBA",
+      "display": "Vaḷi",
+      "definition": "Tuberculosis classified under Vali"
+    },
+    {
+      "code": "JCA",
+      "display": "Vaḷi",
+      "definition": "Cholera classified under Vali"
+    },
+    {
+      "code": "JCB",
+      "display": "Aẕal",
+      "definition": "Cholera classified under Azhal"
+    },
+    {
+      "code": "JCC",
+      "display": "Aiyam",
+      "definition": "Cholera classified under Aiyam"
+    },
+    {
+      "code": "JDA",
+      "display": "Vaḷi",
+      "definition": "Intestinal tuberculosis classified under Vali"
+    },
+    {
+      "code": "JDB",
+      "display": "Aẕal",
+      "definition": "Intestinal tuberculosis classified under Azhal"
+    },
+    {
+      "code": "JDC",
+      "display": "Aiyam",
+      "definition": "Intestinal tuberculosis classified under Aiyam"
+    },
+    {
+      "code": "JDD",
+      "display": "Mukkuṟṟam",
+      "definition": "Intestinal tuberculosis classified under Mukkutram"
+    },
+    {
+      "code": "KA",
+      "display": "Piramai",
+      "definition": "Hallucination"
+    },
+    {
+      "code": "KAA",
+      "display": "Vaḷi",
+      "definition": "Hallucination classified under Vali"
+    },
+    {
+      "code": "KAA1.1",
+      "display": "Vāta Piramai",
+      "definition": "Hallucination caused by increased Vali"
+    },
+    {
+      "code": "KAB",
+      "display": "Aẕal",
+      "definition": "Hallucination classified under azhal"
+    },
+    {
+      "code": "KAC",
+      "display": "Aiyam",
+      "definition": "Hallucination classified under Aiyam"
+    },
+    {
+      "code": "KB",
+      "display": "Kirikai",
+      "definition": "Lunacy"
+    },
+    {
+      "code": "KBA",
+      "display": "Vaḷi",
+      "definition": "Lunacy classified under Vali"
+    },
+    {
+      "code": "KBA1.1",
+      "display": "Vāta Kirikai",
+      "definition": "Catatonic withdrawal with raising up and lying down"
+    },
+    {
+      "code": "KBA1.2",
+      "display": "Nātavintu Kirikai",
+      "definition": "Manica excitement with running like fugitive"
+    },
+    {
+      "code": "KBA1.3",
+      "display": "Muṉaṅkal Kirikai",
+      "definition": "Catatonic excitement with meanining less talking"
+    },
+    {
+      "code": "KBA1.4",
+      "display": "Valippu Kirikai",
+      "definition": "Catatonic excitement with veins pounding"
+    },
+    {
+      "code": "KBA1.5",
+      "display": "Pēypiṭi Kirikai",
+      "definition": "Catatonic excitement with tearing their dresses"
+    },
+    {
+      "code": "KBB",
+      "display": "Aẕal",
+      "definition": "Lunacy classified under Azhal"
+    },
+    {
+      "code": "KBB1.8",
+      "display": "Alaṟu Kirikai",
+      "definition": "Catatonic withdrawal with purposeless yelling"
+    },
+    {
+      "code": "KBB1.9",
+      "display": "Maruṭ Kirikai",
+      "definition": "Manica excitement with calling others and gulping water in excess"
+    },
+    {
+      "code": "KBC",
+      "display": "Aiyam",
+      "definition": "Lunacy classified under Aiyam"
+    },
+    {
+      "code": "KBC1.1",
+      "display": "Cilēttumak Kirikai",
+      "definition": "Catatonic withdrawal with yawning and shutting tears"
+    },
+    {
+      "code": "KBC1.2",
+      "display": "Mōkiṉik Kirikai",
+      "definition": "Manica excitement with absuing others"
+    },
+    {
+      "code": "KBC1.3",
+      "display": "Mūṭu Kirikai",
+      "definition": "Catatonic withdrawal"
+    },
+    {
+      "code": "KBC1.4",
+      "display": "Nīrkuṭi Kirikai",
+      "definition": "Manica excitement with gulping water in excess"
+    },
+    {
+      "code": "KCB",
+      "display": "Aẕal",
+      "definition": "Alcoholism classified under Azhal"
+    },
+    {
+      "code": "KDA",
+      "display": "Vaḷi",
+      "definition": "Psycological impairment classified under Vali"
+    },
+    {
+      "code": "KDB",
+      "display": "Aẕal",
+      "definition": "Psycological impairment classified under Azhal"
+    },
+    {
+      "code": "KDC",
+      "display": "Aiyam",
+      "definition": "Psycological impairment classified under Aiyam"
+    },
+    {
+      "code": "KDD",
+      "display": "Mukkuṟṟam",
+      "definition": "Psycological impairment classified under Mukkutram"
+    },
+    {
+      "code": "KEA",
+      "display": "Vaḷi",
+      "definition": "Stupor classified under Vali"
+    },
+    {
+      "code": "KEB",
+      "display": "Aẕal",
+      "definition": "Stupor classified under Azhal"
+    },
+    {
+      "code": "KEC",
+      "display": "Aiyam",
+      "definition": "Stupor classified under Aiyam"
+    },
+    {
+      "code": "KED",
+      "display": "Mukkuṟṟam",
+      "definition": "Stupor classified under Mukkutram"
+    },
+    {
+      "code": "KFA",
+      "display": "Vaḷi",
+      "definition": "Arrogance classifed under vali"
+    },
+    {
+      "code": "KFB",
+      "display": "Aẕal",
+      "definition": "Arrogance classified under Azhal"
+    },
+    {
+      "code": "KFC",
+      "display": "Aiyam",
+      "definition": "Arrogance classified under Aaiyam"
+    },
+    {
+      "code": "KFD",
+      "display": "Mukkuṟṟam",
+      "definition": "Arrogance classified under Mukkutram"
+    },
+    {
+      "code": "KG",
+      "display": "Cūtikavātam",
+      "definition": "Hysteria"
+    },
+    {
+      "code": "KGA",
+      "display": "Vaḷi",
+      "definition": "Hysteria classified under Vali"
+    },
+    {
+      "code": "KGA1.1",
+      "display": "Cūtikavātam",
+      "definition": "Hysteria"
+    },
+    {
+      "code": "KH",
+      "display": "Veṟi",
+      "definition": "Insanity"
+    },
+    {
+      "code": "KHA",
+      "display": "Vaḷi",
+      "definition": "Insanity classified under Vali"
+    },
+    {
+      "code": "KHB",
+      "display": "Aẕal",
+      "definition": "Insanty classified under Azhal"
+    },
+    {
+      "code": "KHC",
+      "display": "Aiyam",
+      "definition": "Insanty classified under Aaiyam"
+    },
+    {
+      "code": "KHD",
+      "display": "Mukkuṟṟam",
+      "definition": "Insanty classified under Mukkutram"
+    },
+    {
+      "code": "LAA",
+      "display": "Vaḷi",
+      "definition": "Purpura classified under Vali"
+    },
+    {
+      "code": "LAB",
+      "display": "Aẕal",
+      "definition": "Purpura classified under Azhal"
+    },
+    {
+      "code": "LAC",
+      "display": "nan"
+    },
+    {
+      "code": "LAD",
+      "display": "Mukkuṟṟam",
+      "definition": "Purpura classified under Mukkutram"
+    },
+    {
+      "code": "LBA",
+      "display": "Vaḷi",
+      "definition": "Cardiac disease classified under Vali"
+    },
+    {
+      "code": "LBC",
+      "display": "Aiyam",
+      "definition": "Cardiac disease classified under Aaiyam"
+    },
+    {
+      "code": "LBD",
+      "display": "Mukkuṟṟam",
+      "definition": "Cardiac disease classified under Mukkutram"
+    },
+    {
+      "code": "MA",
+      "display": "Āṇ Malaṭu",
+      "definition": "Male Infertility"
+    },
+    {
+      "code": "MAA",
+      "display": "Vaḷi",
+      "definition": "Male Infertility classified under vali"
+    },
+    {
+      "code": "MAA1.1",
+      "display": "Āṇ Malaṭu",
+      "definition": "Male Infertility"
+    },
+    {
+      "code": "MB",
+      "display": "Peṇ Malaṭu",
+      "definition": "Female Infertility"
+    },
+    {
+      "code": "MBA",
+      "display": "Vaḷi",
+      "definition": "Female Infertility classified under vali"
+    },
+    {
+      "code": "MBA1.1",
+      "display": "Kāka Malaṭu",
+      "definition": "Sterility after double child birth"
+    },
+    {
+      "code": "MBA1.2",
+      "display": "Kataḷi Malaṭu",
+      "definition": "Sterility after single child birth"
+    },
+    {
+      "code": "MBA1.3",
+      "display": "Cutta Malaṭu",
+      "definition": "Sterility"
+    },
+    {
+      "code": "MCB",
+      "display": "Aẕal",
+      "definition": "Coital Diseases classified under azhal"
+    },
+    {
+      "code": "MCB1.1",
+      "display": "Puṇarcci Vali",
+      "definition": "Pain during intercourse"
+    },
+    {
+      "code": "MDA",
+      "display": "Vaḷi"
+    },
+    {
+      "code": "MDA1.1",
+      "display": "Tāmaraikkāyttaṭippu",
+      "definition": "It is characterized by small papules like lotus fruit in penis.It is explained by derrangement of vali and iyam . Among the seven udal thathukkal , Cāram , Cennīr , Ūṉ get affected"
+    },
+    {
+      "code": "MDB",
+      "display": "Aẕal"
+    },
+    {
+      "code": "MDB1.2",
+      "display": "Kaṭuku Koppuḷam",
+      "definition": "It is characterized by mustard like boils on the penis . It is similar to herpes of penis . It is explained by increased Aẕal . Among the seven udal thathukkal , Cāram , Cennīr get affected."
+    },
+    {
+      "code": "MDB1.13",
+      "display": "Tōl Taṭaippuṇ",
+      "definition": "It is characterized by swelling in the bulb of penis,difficulty in voiding of urine , difficulty in retracting the skin in the bulb of penis. It is explained by increased Aẕal . Among the seven udal thathukkal , Cāram , Cennīr get affected."
+    },
+    {
+      "code": "MDB1.15",
+      "display": "Varicaippuṇ",
+      "definition": "It is characterized by painful necrotising genital ulcers . It is explained by increased Aẕal . Among the seven udal thathukkal , Cāram , Cennīr get affected."
+    },
+    {
+      "code": "MDC",
+      "display": "Aiyam"
+    },
+    {
+      "code": "MEA",
+      "display": "Vaḷi"
+    },
+    {
+      "code": "MEC",
+      "display": "Aiyam"
+    },
+    {
+      "code": "NAA",
+      "display": "Vaḷi",
+      "definition": "Miscellaneous Eye disease classified under Vali"
+    },
+    {
+      "code": "NAA1.3",
+      "display": "Tūyakaṇ Kuruṭu",
+      "definition": "Stabbing pain in the sclera with blindness"
+    },
+    {
+      "code": "NAA1.4",
+      "display": "Cuẕal Vaṇṭerital",
+      "definition": "Vitreous opacities with black specks floating before the eyes"
+    },
+    {
+      "code": "NAB",
+      "display": "Aẕal",
+      "definition": "Miscellaneous Eye disease classified under Azhal"
+    },
+    {
+      "code": "NAB1.2",
+      "display": "Avikāya Viraṇam",
+      "definition": "Pruritus of eye with blinking of eyelids"
+    },
+    {
+      "code": "NAB1.3",
+      "display": "Kaṇ Tiṉavu",
+      "definition": "Allergic conjuctivitis with watery discharge and burning discharge"
+    },
+    {
+      "code": "NAB1.4",
+      "display": "Aṉṉa Kōpam",
+      "definition": "Redness of eye with watery discharge, burning sensation"
+    },
+    {
+      "code": "NAB1.7",
+      "display": "Mataṉamantāram",
+      "definition": "Redness,itching,pricky pain of eyes"
+    },
+    {
+      "code": "NAB1.10",
+      "display": "Uṟuviẕi Puṭaittal",
+      "definition": "Protrubence of eye with upward gazing vision, redness of eye with watery discharge"
+    },
+    {
+      "code": "NAB1.12",
+      "display": "Amaram",
+      "definition": "Disease condition occuring in children with fleshy growth in the innerside of the eyelid, not able t"
+    },
+    {
+      "code": "NAB1.14",
+      "display": "Mayir Puẕuveṭṭu",
+      "definition": "Itching in the eyelid and eyeball with sensitivity and watery discharge, swelling of the eyelids wit"
+    },
+    {
+      "code": "NAB1.17",
+      "display": "Kuvaḷaippaṭuvaṉ",
+      "definition": "Inability to rotate the eyeball due to papules in the inner lower eyelid."
+    },
+    {
+      "code": "NAB1.18",
+      "display": "Aẕaṟṟi",
+      "definition": "Reddish painful inflammatory swelling of the lateral canthus with watery discharge."
+    },
+    {
+      "code": "NAC",
+      "display": "Aiyam"
+    },
+    {
+      "code": "NAC1.3",
+      "display": "Parumuḷai",
+      "definition": "Heaviness in the eyes with pain and watery discharge, swelling of the eyelids, unable to open eyes w"
+    },
+    {
+      "code": "NAC1.5",
+      "display": "Veḷḷeẕuttu",
+      "definition": "Sensitivity of eyes, blurred vision and long sightedness"
+    },
+    {
+      "code": "NAC1.9",
+      "display": "Mālaikkaṇ",
+      "definition": "Night blindness"
+    },
+    {
+      "code": "NAC1.10",
+      "display": "Akkaram",
+      "definition": "Redness in the eye with itching, sensitivity and water discharge from the eye"
+    },
+    {
+      "code": "NBA",
+      "display": "Vaḷi",
+      "definition": "Eye lid diseases classified under Vali"
+    },
+    {
+      "code": "NBA1.1",
+      "display": "Muṭa Mayir",
+      "definition": "Trichiasis"
+    },
+    {
+      "code": "NBA1.4",
+      "display": "Imaiyuyarcci",
+      "definition": "Ectropion"
+    },
+    {
+      "code": "NBB",
+      "display": "Aẕal",
+      "definition": "Eye lid diseases classified under Azhal"
+    },
+    {
+      "code": "NBB1.1",
+      "display": "Iratta Kaẕalai",
+      "definition": "Melacystic tumour of eyelid"
+    },
+    {
+      "code": "NBC",
+      "display": "Aiyam",
+      "definition": "Eye lid diseases classified under aiyam"
+    },
+    {
+      "code": "NBC1.3",
+      "display": "Imai Taṭippu",
+      "definition": "Blepharitis"
+    },
+    {
+      "code": "NBC1.5",
+      "display": "Tacai Kaẕalai",
+      "definition": "Eyelid tumour"
+    },
+    {
+      "code": "NBC1.6",
+      "display": "Nīr Paṟpa Rōkam",
+      "definition": "Stye"
+    },
+    {
+      "code": "NCA",
+      "display": "Vaḷi",
+      "definition": "Eye canthal disease classified under Vali"
+    },
+    {
+      "code": "NCA1.1",
+      "display": "Viẕi Vali",
+      "definition": "Ptosis due to increase vali humour"
+    },
+    {
+      "code": "NCB",
+      "display": "Aẕal",
+      "definition": "Eye canthal disease classified under azhal"
+    },
+    {
+      "code": "NCB1.3",
+      "display": "Viraṇap Paru",
+      "definition": "Pappilary growth in the outer canthus of eye"
+    },
+    {
+      "code": "NCC",
+      "display": "Aiyam",
+      "definition": "Eye canthal disease classified under aiyam"
+    },
+    {
+      "code": "NCC1.2",
+      "display": "Pūccāntiram",
+      "definition": "growth above the medial canthus"
+    },
+    {
+      "code": "ND",
+      "display": "Karuviẕi Nōykaḷ",
+      "definition": "Corneal disease"
+    },
+    {
+      "code": "NDA",
+      "display": "Vaḷi",
+      "definition": "Corneal disease caused by Vali"
+    },
+    {
+      "code": "NDA1.8",
+      "display": "Viraṇa Cukkiraṉ",
+      "definition": "Corneal ucers which closes the pupil"
+    },
+    {
+      "code": "NDB",
+      "display": "Aẕal",
+      "definition": "Corneal disease caused by Azhal"
+    },
+    {
+      "code": "NDC",
+      "display": "Aiyam",
+      "definition": "Corneal disease caused by aiyam"
+    },
+    {
+      "code": "NDC1.9",
+      "display": "Nāka Aṭalam",
+      "definition": "Corneal eye disease with vascularised thickening of the conjuctiva pterigium"
+    },
+    {
+      "code": "NDC1.15",
+      "display": "Nīr Vari",
+      "definition": "Corneal eye disease with watering"
+    },
+    {
+      "code": "NDC1.16",
+      "display": "Veḷḷēẕuttu",
+      "definition": "Presbyopia"
+    },
+    {
+      "code": "NDD",
+      "display": "Mukkuṟṟam",
+      "definition": "Corneal disease caused by Mukkutram"
+    },
+    {
+      "code": "NEA",
+      "display": "Vaḷi",
+      "definition": "Scleral disease of the eye classified under vali"
+    },
+    {
+      "code": "NEA1.5",
+      "display": "Viraṇa Nerical",
+      "definition": "Inflammatory vascular congesion of the sclera"
+    },
+    {
+      "code": "NEB",
+      "display": "Aẕal",
+      "definition": "Scleral disease of the eye classified under azhal"
+    },
+    {
+      "code": "NEB1.2",
+      "display": "Untu Nerical",
+      "definition": "Episcleral vascular congesion"
+    },
+    {
+      "code": "NEC",
+      "display": "Aiyam",
+      "definition": "Scleral disease of the eye classified under aiyam"
+    },
+    {
+      "code": "O",
+      "display": "Ūṭṭaccattu Kuṟaipāṭu Nōykaḷ",
+      "definition": "Malnutrition diseases"
+    },
+    {
+      "code": "P",
+      "display": "Puṟṟu Nōykaḷ",
+      "definition": "Cancer"
+    },
+    {
+      "code": "PA",
+      "display": "Nakiṟkaṭṭi",
+      "definition": "Breast Tumour"
+    },
+    {
+      "code": "PAA",
+      "display": "Vaḷi",
+      "definition": "Breast Tumour classified under Vali"
+    },
+    {
+      "code": "PAB",
+      "display": "Aẕal",
+      "definition": "Breast Tumour classified under Azhal"
+    },
+    {
+      "code": "PAC",
+      "display": "Aiyam",
+      "definition": "Breast Tumour classified under Aiyam"
+    },
+    {
+      "code": "PAD",
+      "display": "Mukkuṟṟam",
+      "definition": "Breast Tumour classified under Mukkutram"
+    },
+    {
+      "code": "PBD",
+      "display": "Mukkuṟṟam",
+      "definition": "Cancer occuring in Sclera classified under Mukkutram"
+    },
+    {
+      "code": "PC",
+      "display": "Vippuruti",
+      "definition": "Malignant cancers"
+    },
+    {
+      "code": "PCD",
+      "display": "Mukkuṟṟam",
+      "definition": "Malignant cancer classified under Mukkutram"
+    },
+    {
+      "code": "PDD",
+      "display": "Mukkuṟṟam"
+    },
+    {
+      "code": "PDD1.2",
+      "display": "Karuppaippuṟṟu",
+      "definition": "It is characterized by blood tinged unusual vaginal discharge , pain during intercourse , pain during urination It is explained by derangement of muththathukkal . Among the seven udal thathukkal , Cāram , Cennīr,Ūṉ,kozhupu,Eṉpu,Mūḷai,Cukkilam get affec"
+    },
+    {
+      "code": "QA",
+      "display": "Veḷuppu Nōy",
+      "definition": "Anaemia"
+    },
+    {
+      "code": "QAA",
+      "display": "Vaḷi",
+      "definition": "Anaemia classified under Vali"
+    },
+    {
+      "code": "QAB",
+      "display": "Aẕal",
+      "definition": "Anaemia classified under Azhal"
+    },
+    {
+      "code": "QAC",
+      "display": "Aiyam",
+      "definition": "Anaemia classified under Aiyam"
+    },
+    {
+      "code": "QAD",
+      "display": "Mukkuṟṟam"
+    },
+    {
+      "code": "RAA",
+      "display": "Vaḷi",
+      "definition": "Rectal Prolapse classified under Vali"
+    },
+    {
+      "code": "RBB",
+      "display": "Aẕal",
+      "definition": "Axillary lymphadenopathy classified under Azhal"
+    },
+    {
+      "code": "RCB",
+      "display": "Aẕal",
+      "definition": "Scalp carbuncle classified under Azhal"
+    },
+    {
+      "code": "RCC",
+      "display": "Aiyam",
+      "definition": "Scalp carbuncle classified under Aiyam"
+    },
+    {
+      "code": "RD",
+      "display": "Kapāla Tērai",
+      "definition": "Scalp eczema due to increasing Vali"
+    },
+    {
+      "code": "RE",
+      "display": "Kaṇṭamālai",
+      "definition": "Cervical Lymphadenopathy"
+    },
+    {
+      "code": "RED",
+      "display": "Mukkuṟṟam",
+      "definition": "Cervical Lymphadenopathy classified under mukkutram"
+    },
+    {
+      "code": "RED1",
+      "display": "Kaṇṭamālai",
+      "definition": "Cervical Lymphadenopathy due to derangement of mukkutram"
+    },
+    {
+      "code": "RF",
+      "display": "Kaṭṭi",
+      "definition": "Abcess"
+    },
+    {
+      "code": "RFA",
+      "display": "Vaḷi",
+      "definition": "Abcess classified under Vali"
+    },
+    {
+      "code": "RFB",
+      "display": "Aẕal",
+      "definition": "Abcess classified under Azhal"
+    },
+    {
+      "code": "RFC",
+      "display": "Aiyam"
+    },
+    {
+      "code": "RFC1.2",
+      "display": "Nilappūcaṇi Kaṭṭi",
+      "definition": "carbuncle like tuber due to increasing Aiyam"
+    },
+    {
+      "code": "RG",
+      "display": "Kiranti",
+      "definition": "Syphilis"
+    },
+    {
+      "code": "RGA",
+      "display": "Vaḷi",
+      "definition": "Syphilis classified under Vali"
+    },
+    {
+      "code": "RGA1.3",
+      "display": "Eṉpu Kiranti",
+      "definition": "Syphilitic ulcer due to altered Enbu thathu by increasing vali"
+    },
+    {
+      "code": "RGB",
+      "display": "Aẕal",
+      "definition": "Syphilis classified under Azhal"
+    },
+    {
+      "code": "RGC",
+      "display": "Aiyam",
+      "definition": "Syphilis classified under aiyam"
+    },
+    {
+      "code": "RGD",
+      "display": "Mukkuṟṟam",
+      "definition": "Syphilis classified under Mukkutram"
+    },
+    {
+      "code": "RH",
+      "display": "Maṇṭai Kaṉappu",
+      "definition": "Heaviness of Head"
+    },
+    {
+      "code": "RHA",
+      "display": "Vaḷi",
+      "definition": "Heaviness of Head classified under Vali"
+    },
+    {
+      "code": "RHC",
+      "display": "Aiyam",
+      "definition": "Heaviness of Head classified under Aiyam"
+    },
+    {
+      "code": "RI",
+      "display": "Maṇṭaikkuttiyal",
+      "definition": "Head ache"
+    },
+    {
+      "code": "RIA",
+      "display": "Vaḷi",
+      "definition": "Head ache classified under Vali"
+    },
+    {
+      "code": "RIA1.1",
+      "display": "Maṇṭaikkuttiyal",
+      "definition": "Pricking pain around the head due to increasing Vali"
+    },
+    {
+      "code": "RJD",
+      "display": "Mukkuṟṟam",
+      "definition": "Extreme coldness of Head classified under Mukkutram"
+    },
+    {
+      "code": "RK",
+      "display": "Maṇṭai Cūlai",
+      "definition": "Scalp pain"
+    },
+    {
+      "code": "RKA",
+      "display": "Vaḷi",
+      "definition": "Scalp pain classified under Vali"
+    },
+    {
+      "code": "RLA",
+      "display": "Vaḷi",
+      "definition": "Numbness over Scalp classified under Vali"
+    },
+    {
+      "code": "RMA",
+      "display": "Vaḷi",
+      "definition": "Head pain classified under Vali"
+    },
+    {
+      "code": "RN",
+      "display": "Maṇṭai Vaṟaṭci",
+      "definition": "Dryness over the scalp"
+    },
+    {
+      "code": "RNA",
+      "display": "Vaḷi",
+      "definition": "Dryness over the scalp classified under Vali"
+    },
+    {
+      "code": "RNA1.1",
+      "display": "Maṇṭai Vaṟaṭci",
+      "definition": "Dryness over the scalp"
+    },
+    {
+      "code": "ROA",
+      "display": "Vaḷi",
+      "definition": "Brain disease classified under Vali"
+    },
+    {
+      "code": "ROB",
+      "display": "Aẕal",
+      "definition": "Brain disease classified under Azhal"
+    },
+    {
+      "code": "ROC",
+      "display": "Aiyam",
+      "definition": "Brain disease classified under Aiyam"
+    },
+    {
+      "code": "RP",
+      "display": "Pavuttiram",
+      "definition": "Fistula"
+    },
+    {
+      "code": "RPA",
+      "display": "Vaḷi",
+      "definition": "Fistula classified under Vali"
+    },
+    {
+      "code": "RPA1.3",
+      "display": "Mūlap Pavuttiram",
+      "definition": "Ano vesical fistula"
+    },
+    {
+      "code": "RPA1.4",
+      "display": "Eruvāy Kaṇṭamālai Pavuttiram",
+      "definition": "Anorectal fistula due to increasing Vali"
+    },
+    {
+      "code": "RPB",
+      "display": "Aẕal",
+      "definition": "Fistula classified under azhal"
+    },
+    {
+      "code": "RPB1.1",
+      "display": "Eruvāy Pavuttiram",
+      "definition": "Fistula in ani due to increasing azhal"
+    },
+    {
+      "code": "RPC",
+      "display": "Aiyam",
+      "definition": "Fistula classified under Aiyam"
+    },
+    {
+      "code": "RQ",
+      "display": "Ucci Vaḷi",
+      "definition": "Vertex disease"
+    },
+    {
+      "code": "RQA",
+      "display": "Vaḷi",
+      "definition": "Disease occuring around vertex classified under Vali"
+    },
+    {
+      "code": "RQB",
+      "display": "Aẕal",
+      "definition": "Disease occuring around vertex classified under azhal"
+    },
+    {
+      "code": "RQC",
+      "display": "Aiyam",
+      "definition": "Disease occuring around vertex classified under Aiyam"
+    },
+    {
+      "code": "RR",
+      "display": "Yāṉaikkāl",
+      "definition": "Filiriasis"
+    },
+    {
+      "code": "RRA",
+      "display": "Vaḷi",
+      "definition": "Filiriasis classified under Vali"
+    },
+    {
+      "code": "RRB",
+      "display": "Aẕal",
+      "definition": "Filiriasis classified under Azhal"
+    },
+    {
+      "code": "RRC",
+      "display": "Aiyam",
+      "definition": "Filiriasis classified under Aiyam"
+    },
+    {
+      "code": "SA",
+      "display": "Varma Aṭi",
+      "definition": "Injuries in the varmam"
+    },
+    {
+      "code": "SAG1.1",
+      "display": "Toṭai Maiya Varmam",
+      "definition": "Injury to Thodai maiya varmam"
+    },
+    {
+      "code": "TAA",
+      "display": "Vaḷi"
+    },
+    {
+      "code": "TAB",
+      "display": "Aẕal",
+      "definition": "Eczema of children classified under Azhal"
+    },
+    {
+      "code": "TAC",
+      "display": "Aiyam",
+      "definition": "Eczema of children classified under aiyam"
+    },
+    {
+      "code": "TAD",
+      "display": "Mukkuṟṟam",
+      "definition": "Eczema of children classified under mukkutram"
+    },
+    {
+      "code": "TBA",
+      "display": "Vaḷi",
+      "definition": "Whooping cough classified under vali"
+    },
+    {
+      "code": "TC",
+      "display": "Kāmālai",
+      "definition": "Jaundice of children"
+    },
+    {
+      "code": "TCA",
+      "display": "Vaḷi",
+      "definition": "Jaundice of children classfied under vali"
+    },
+    {
+      "code": "TCB",
+      "display": "Aẕal",
+      "definition": "Jaundice of children classfied under azhal"
+    },
+    {
+      "code": "TCC",
+      "display": "Aiyam",
+      "definition": "Jaundice of children classfied under aiyam"
+    },
+    {
+      "code": "TD",
+      "display": "Kaṇam",
+      "definition": "Respiratory syndrome of children"
+    },
+    {
+      "code": "TDA",
+      "display": "Vaḷi",
+      "definition": "Respiratory diseases of children classified under vali"
+    },
+    {
+      "code": "TDB",
+      "display": "Aẕal",
+      "definition": "Respiratory diseases of children classified under azhal"
+    },
+    {
+      "code": "TDB1.7",
+      "display": "Nīrāmakkaṇam",
+      "definition": "Respiratory disorders with severe fever and diarrhea"
+    },
+    {
+      "code": "TDC",
+      "display": "Aiyam",
+      "definition": "Respiratory disorders caused due to aggravation of aiyam"
+    },
+    {
+      "code": "TE",
+      "display": "Kaẕiccal",
+      "definition": "Dysentry of children"
+    },
+    {
+      "code": "TEA",
+      "display": "Vaḷi",
+      "definition": "Dysentry of children classified under vali"
+    },
+    {
+      "code": "TEA1.1",
+      "display": "Māntak Kaẕiccal",
+      "definition": "Dysentery due to digestive disorders."
+    },
+    {
+      "code": "TEA1.2",
+      "display": "Kaṇa Kaẕiccal",
+      "definition": "Dysentery due to respiratory disorders."
+    },
+    {
+      "code": "TEC",
+      "display": "Aiyam",
+      "definition": "Dysentry of children classified under azhal"
+    },
+    {
+      "code": "TF",
+      "display": "Māntam",
+      "definition": "Digestive disorders of children"
+    },
+    {
+      "code": "TFA",
+      "display": "Vaḷi",
+      "definition": "Digestive disorders of children classified under vali"
+    },
+    {
+      "code": "TFA1.4",
+      "display": "Cura Māntam",
+      "definition": "Digestive disorders due to fever"
+    },
+    {
+      "code": "TFB",
+      "display": "Aẕal",
+      "definition": "Digestive disorders of children classified under azhal"
+    },
+    {
+      "code": "TFC",
+      "display": "Aiyam",
+      "definition": "Digestive disorders of children classified under aiyam"
+    },
+    {
+      "code": "TG",
+      "display": "Nānāṟṟam",
+      "definition": "Bad Breadth"
+    },
+    {
+      "code": "TGA",
+      "display": "Vaḷi",
+      "definition": "Bad Breadth classified under vali"
+    },
+    {
+      "code": "TGA1.1",
+      "display": "Nānāṟṟam",
+      "definition": "Bad Breadth"
+    },
+    {
+      "code": "TH",
+      "display": "Nāmuḷ",
+      "definition": "Papules in the tongue"
+    },
+    {
+      "code": "THA",
+      "display": "Vaḷi",
+      "definition": "Papules in the tongue classified under vali"
+    },
+    {
+      "code": "THA1.1",
+      "display": "Nāmuḷ",
+      "definition": "Papules in the tongue"
+    },
+    {
+      "code": "TI",
+      "display": "Nāvil Tōṉṟum Nōykaḷ",
+      "definition": "Tongue disorders"
+    },
+    {
+      "code": "TIA",
+      "display": "Vaḷi",
+      "definition": "Glossitis classified under vali"
+    },
+    {
+      "code": "TIA1.2",
+      "display": "Nīli Akkaram",
+      "definition": "Glossitis with white colour coating of tongue."
+    },
+    {
+      "code": "TIA1.5",
+      "display": "Kumari Akkaram",
+      "definition": "Glossitis with white colour coating of tongue."
+    },
+    {
+      "code": "TIB",
+      "display": "Aẕal",
+      "definition": "Glossitis classified under azhal"
+    },
+    {
+      "code": "TJA",
+      "display": "Vaḷi",
+      "definition": "Diseases due to external causes classified under vali"
+    },
+    {
+      "code": "TJA1.1",
+      "display": "Vikkal",
+      "definition": "Hiccup"
+    },
+    {
+      "code": "TJA1.2",
+      "display": "Porumal",
+      "definition": "Flatulence"
+    },
+    {
+      "code": "TJA1.4",
+      "display": "Pāl Etireṭuttal",
+      "definition": "Milk regurgitation"
+    },
+    {
+      "code": "TJA1.5",
+      "display": "Koṭṭāvi",
+      "definition": "Yawning"
+    },
+    {
+      "code": "TJA1.7",
+      "display": "Pāl Kuṭiyāmai",
+      "definition": "Oral dislike"
+    },
+    {
+      "code": "TJA1.9",
+      "display": "Malakkaṭṭu",
+      "definition": "Constipation in children"
+    },
+    {
+      "code": "TJA1.10",
+      "display": "Nīrkkaṭṭu",
+      "definition": "Difficulty in micturition"
+    },
+    {
+      "code": "TK",
+      "display": "Puẕu Nōykaḷ",
+      "definition": "Worm infestation"
+    },
+    {
+      "code": "TKA",
+      "display": "Vaḷi",
+      "definition": "Worm infestation classified under Vali"
+    },
+    {
+      "code": "TKA1.2",
+      "display": "Kīri Puẕu",
+      "definition": "Ring worm infestation"
+    },
+    {
+      "code": "TL",
+      "display": "Cōkai",
+      "definition": "Dropsy"
+    },
+    {
+      "code": "TLA",
+      "display": "Vaḷi",
+      "definition": "Dropsy classified under vali"
+    },
+    {
+      "code": "TLB",
+      "display": "Aẕal",
+      "definition": "Dropsy classified under azhal"
+    },
+    {
+      "code": "TM",
+      "display": "Tōṭam",
+      "definition": "Zoonotic disease of children"
+    },
+    {
+      "code": "TMA",
+      "display": "Vaḷi",
+      "definition": "Zoonotic disease of children classified under Vali"
+    },
+    {
+      "code": "TMB",
+      "display": "Aẕal",
+      "definition": "Zoonotic disease of children classified under Azhal"
+    },
+    {
+      "code": "TMC",
+      "display": "Aiyam",
+      "definition": "Zoonotic disease of children classified under Aiyam"
+    },
+    {
+      "code": "TMD",
+      "display": "Mukkuṟṟam",
+      "definition": "Zoonotic disease of children classified under Mukkutram"
+    },
+    {
+      "code": "TMD1.3",
+      "display": "Āṇ Tōṭam",
+      "definition": "infection caused due to male birds"
+    },
+    {
+      "code": "TN",
+      "display": "Valippu",
+      "definition": "Seizures"
+    },
+    {
+      "code": "TNA",
+      "display": "Vaḷi",
+      "definition": "Seizures classified under Vali"
+    },
+    {
+      "code": "TNA1.2",
+      "display": "Kākkai Valippu",
+      "definition": "Seizures"
+    },
+    {
+      "code": "TNA1.4",
+      "display": "Puṟa Icivu",
+      "definition": "Congenital muscular vtorticolis"
+    },
+    {
+      "code": "TO",
+      "display": "Caṉṉi",
+      "definition": "Delirium"
+    },
+    {
+      "code": "TOD",
+      "display": "Mukkuṟṟam",
+      "definition": "Delirium classified under mukkutram"
+    },
+    {
+      "code": "UAA",
+      "display": "Vaḷi",
+      "definition": "Dental disease classified under Vali"
+    },
+    {
+      "code": "UAA1.1",
+      "display": "Pal Kūccam",
+      "definition": "SensitiveTeeth"
+    },
+    {
+      "code": "UAA1.2",
+      "display": "Pal Kuttal",
+      "definition": "Tooth ache"
+    },
+    {
+      "code": "UAA1.3",
+      "display": "Pallāṭṭam",
+      "definition": "Weak dentition"
+    },
+    {
+      "code": "UAA1.8",
+      "display": "Pal Karuttal",
+      "definition": "Black stains of teeth"
+    },
+    {
+      "code": "UAA1.10",
+      "display": "Pal Puẕu",
+      "definition": "Dental carries"
+    },
+    {
+      "code": "UBA",
+      "display": "Vaḷi",
+      "definition": "Gum disease classified under Vali"
+    },
+    {
+      "code": "UBA1.1",
+      "display": "Pallaṭi Tuḷai",
+      "definition": "Hole in Tooth"
+    },
+    {
+      "code": "UBA1.5",
+      "display": "Pallaṭi Vīkkam",
+      "definition": "Gingivitis"
+    },
+    {
+      "code": "UBA1.6",
+      "display": "Pallaṭi Kotippu",
+      "definition": "Gum Bruise"
+    },
+    {
+      "code": "UBA1.7",
+      "display": "Pallaṭi Mañcaḷātal",
+      "definition": "Plaques in dentition"
+    },
+    {
+      "code": "UBA1.8",
+      "display": "Pallaṭi Kaṭṭi",
+      "definition": "periodontal abcess"
+    },
+    {
+      "code": "VAA",
+      "display": "Vaḷi"
+    },
+    {
+      "code": "VAB",
+      "display": "Aẕal"
+    },
+    {
+      "code": "VAC",
+      "display": "Aiyam"
+    },
+    {
+      "code": "VAD",
+      "display": "Mukkuṟṟam"
+    },
+    {
+      "code": "WAA",
+      "display": "Vaḷi",
+      "definition": "Fever caused due to internal cause classified under Vali"
+    },
+    {
+      "code": "WAA1.1",
+      "display": "Vāta Curam",
+      "definition": "Fever caused due to Vatham"
+    },
+    {
+      "code": "WAA1.3",
+      "display": "Vātakapa Curam",
+      "definition": "Fever caused due to Vatha Kapham"
+    },
+    {
+      "code": "WAA1.5",
+      "display": "Viṭṭuvarum Curam",
+      "definition": "Intermittent fever"
+    },
+    {
+      "code": "WAB",
+      "display": "Aẕal",
+      "definition": "Fever caused due to internal cause classified under Azhal"
+    },
+    {
+      "code": "WAB1.1",
+      "display": "Pitta Curam",
+      "definition": "Fever caused due to pitham"
+    },
+    {
+      "code": "WAB1.4",
+      "display": "Naḷir Curam",
+      "definition": "Fever with chills"
+    },
+    {
+      "code": "WAB1.6",
+      "display": "Uḷ Curam",
+      "definition": "Internal fever"
+    },
+    {
+      "code": "WAB1.8",
+      "display": "Ceṅkaṟaic Curam",
+      "definition": "Fever with rashes"
+    },
+    {
+      "code": "WAB1.9",
+      "display": "Muṟai Curam",
+      "definition": "Periodic fever"
+    },
+    {
+      "code": "WAC",
+      "display": "Aiyam",
+      "definition": "Fever caused due to internal cause classified under aiyam"
+    },
+    {
+      "code": "WAC1.1",
+      "display": "Kapa Curam",
+      "definition": "Fever caused due to Kapham"
+    },
+    {
+      "code": "WAC1.14",
+      "display": "Irumal Curam",
+      "definition": "Fever caused due to cough"
+    },
+    {
+      "code": "WBC",
+      "display": "Aiyam",
+      "definition": "Fever caused due to external cause classified under aiyam"
+    },
+    {
+      "code": "WBC1.4",
+      "display": "Paya Curam",
+      "definition": "Fever with Anxiety"
+    },
+    {
+      "code": "WBD",
+      "display": "Mukkuṟṟam",
+      "definition": "Fever caused due to external cause classified under Mukkutram"
+    },
+    {
+      "code": "XA",
+      "display": "Kallaṭaippu",
+      "definition": "Urolithiasis"
+    },
+    {
+      "code": "XAA",
+      "display": "Vaḷi",
+      "definition": "Urolithiasis classified under Vali"
+    },
+    {
+      "code": "XAB",
+      "display": "Aẕal",
+      "definition": "Urolithiasis classified under Azhal"
+    },
+    {
+      "code": "XAC",
+      "display": "Aiyam",
+      "definition": "Urolithiasis classified under Aiyam"
+    },
+    {
+      "code": "XAC1.1",
+      "display": "Aiya Kallaṭaippu",
+      "definition": "Urolithiasis due to Iyam"
+    },
+    {
+      "code": "XAD",
+      "display": "Mukkuṟṟam",
+      "definition": "Urolithiasis classified under Mukkutram"
+    },
+    {
+      "code": "XB",
+      "display": "Nīraṭaippu",
+      "definition": "Obstruction of Urine"
+    },
+    {
+      "code": "XBA",
+      "display": "Vaḷi",
+      "definition": "Obstruction of Urine classified under vali"
+    },
+    {
+      "code": "XBA1.1",
+      "display": "Nīraṭaippu",
+      "definition": "Obstruction of Urine due to Vali"
+    },
+    {
+      "code": "XC",
+      "display": "Nīrkkaṭṭu",
+      "definition": "Anuria"
+    },
+    {
+      "code": "XCA",
+      "display": "Vaḷi",
+      "definition": "Anuria classified under vali"
+    },
+    {
+      "code": "XCA1.1",
+      "display": "Nīrkkaṭṭu",
+      "definition": "Anuria due to vali"
+    },
+    {
+      "code": "XD",
+      "display": "Nīrccurukku",
+      "definition": "Urinary tract Infection"
+    },
+    {
+      "code": "XDA",
+      "display": "Vaḷi",
+      "definition": "Urinary tract Infection classified under Vali"
+    },
+    {
+      "code": "XDB",
+      "display": "Aẕal",
+      "definition": "Urinary tract Infection classified under Azhal"
+    },
+    {
+      "code": "XDB1.1",
+      "display": "Aẕal Nīrccurukku",
+      "definition": "Urinary tract Infection caused by increased azhal"
+    },
+    {
+      "code": "XDC",
+      "display": "Aiyam",
+      "definition": "Urinary tract Infection classified underAiyam"
+    },
+    {
+      "code": "XDC1.1",
+      "display": "Aiya Nīrccurukku",
+      "definition": "Urinary tract Infection caused by increasedAiyam"
+    },
+    {
+      "code": "XDD",
+      "display": "Mukkuṟṟam",
+      "definition": "Urinary tract Infection classified under Mukkutram"
+    },
+    {
+      "code": "XE",
+      "display": "Coṭṭu Nīr",
+      "definition": "Drippling of Urine"
+    },
+    {
+      "code": "XEA",
+      "display": "Vaḷi",
+      "definition": "Drippling of Urine classified under vali"
+    },
+    {
+      "code": "XEA1.1",
+      "display": "Coṭṭu Nīr",
+      "definition": "Drippling of Urine due to vali"
+    },
+    {
+      "code": "YAA",
+      "display": "Vaḷi",
+      "definition": "Toxic symtoms classified under Vali"
+    },
+    {
+      "code": "YAB",
+      "display": "Aẕal",
+      "definition": "Toxic symtoms classified under Azhal"
+    },
+    {
+      "code": "YAB1.1",
+      "display": "Pitta Viṭapākam",
+      "definition": "Toxic symptoms such as headache, lower abdominal pain and hematuria due to pitha vishabagam"
+    },
+    {
+      "code": "YAC",
+      "display": "Aiyam",
+      "definition": "Toxic symtoms classified under Aiyam"
+    },
+    {
+      "code": "YAD",
+      "display": "Mukkuṟṟam",
+      "definition": "Toxic symtoms classified under Mukkutram"
+    },
+    {
+      "code": "YC",
+      "display": "Ulōka Nañcu",
+      "definition": "Toxicity due to Metals"
+    },
+    {
+      "code": "YD",
+      "display": "Cīva Nañcu",
+      "definition": "Animal poisons"
+    },
+    {
+      "code": "YE",
+      "display": "Iṭumaruntu Nañcu",
+      "definition": "The poisonous effects of the philter which is given to a particular person"
+    },
+    {
+      "code": "YE1",
+      "display": "Iṭumaruntu Nañcu",
+      "definition": "The poisonous effects of the philter which is given to a particular person"
+    },
+    {
+      "code": "YF",
+      "display": "Tāvara Nañcu",
+      "definition": "plant poisons"
+    },
+    {
+      "code": "Z1",
+      "display": "Vātastampam",
+      "definition": "Lumbosacroiliac syndrome"
+    },
+    {
+      "code": "Z2",
+      "display": "Vātakarṣaṇam",
+      "definition": "Peripheral Neuritis"
+    },
+    {
+      "code": "Z3",
+      "display": "Karastampam",
+      "definition": "Peripheral Neuritis clue to DM"
+    },
+    {
+      "code": "Z4",
+      "display": "Talastampam",
+      "definition": "Plantar fascitis"
+    },
+    {
+      "code": "Z5",
+      "display": "Pūcuvātam",
+      "definition": "Rectal emphysema"
+    },
+    {
+      "code": "Z6",
+      "display": "Kāḷāñcakavātam",
+      "definition": "Psoriatic arthritis"
+    },
+    {
+      "code": "Z7",
+      "display": "Ūrustampavātam",
+      "definition": "Gynoid type of obesity"
+    },
+    {
+      "code": "Z8",
+      "display": "Vātakarṉakam",
+      "definition": "Meneire disease"
+    },
+    {
+      "code": "Z9",
+      "display": "Kuriṣikiriṣavātam",
+      "definition": "Strangulated inguinal hernia"
+    },
+    {
+      "code": "Z10",
+      "display": "Narittalai Vātam",
+      "definition": "Gonococcal arthritis"
+    },
+    {
+      "code": "Z11",
+      "display": "Kumpa Vātam",
+      "definition": "Periarthritis cervical radiculopathy."
+    },
+    {
+      "code": "Z12",
+      "display": "Malaittakampa Vātam",
+      "definition": "Aggrevation of vatha with neuritis all over the body"
+    },
+    {
+      "code": "Z13",
+      "display": "Pāṇikkampa Vātam",
+      "definition": "Parkinsonism"
+    },
+    {
+      "code": "Z14",
+      "display": "Kūṉi Vātam",
+      "definition": "Vatham with scoliatic features"
+    },
+    {
+      "code": "Z15",
+      "display": "Ākuṉivātam",
+      "definition": "Increased vatham and scolisis with odema"
+    },
+    {
+      "code": "Z17",
+      "display": "Vāta Upakatam",
+      "definition": "Peripheral Neuritis due to vit B1deficiency"
+    },
+    {
+      "code": "Z20",
+      "display": "Cevipaṭuvātam",
+      "definition": "Secretin otitis media"
+    },
+    {
+      "code": "Z21",
+      "display": "Pakka Vātam",
+      "definition": "Incomplete hemiplegia"
+    },
+    {
+      "code": "Z22",
+      "display": "Pakṣavātam",
+      "definition": "Complete Hemiplegia"
+    },
+    {
+      "code": "Z24",
+      "display": "Pirāṇālaya Vātam",
+      "definition": "Aggrevation of vatham and emasciation leading to death"
+    },
+    {
+      "code": "Z25",
+      "display": "Calastampa Vātam",
+      "definition": "Strangury with severe constipation due to vatha"
+    },
+    {
+      "code": "Z26",
+      "display": "Cantu Vātam",
+      "definition": "Polyarthritis"
+    },
+    {
+      "code": "Z27",
+      "display": "Cakaṉa Vātam",
+      "definition": "Cervical spandylosis"
+    },
+    {
+      "code": "Z29",
+      "display": "Uraka Vātam",
+      "definition": "Bells palsy"
+    },
+    {
+      "code": "Z30",
+      "display": "Urakāri Vātam",
+      "definition": "Liver abscess"
+    },
+    {
+      "code": "Z31",
+      "display": "Asvatampa Vātam",
+      "definition": "TB spine"
+    },
+    {
+      "code": "Z32",
+      "display": "Pācattampa Vātam",
+      "definition": "Aggrevation of vatham and aggrevation of pittham causing palpitation and increase of pittha in muscu"
+    },
+    {
+      "code": "Z34",
+      "display": "Taṇṭaka Vātam",
+      "definition": "Lumbar spondyloris"
+    },
+    {
+      "code": "Z35",
+      "display": "Aṣṭa Tantira Vātam",
+      "definition": "Tetanus"
+    },
+    {
+      "code": "Z36",
+      "display": "Vacaṉā Vātam",
+      "definition": "Grandmal epilepsy"
+    },
+    {
+      "code": "Z37",
+      "display": "Makā Vātam",
+      "definition": "Pernicious Anaemia"
+    },
+    {
+      "code": "Z38",
+      "display": "Mirut Vātam",
+      "definition": "Crohns disease"
+    },
+    {
+      "code": "Z39",
+      "display": "Utara Vātam",
+      "definition": "Gastric malignancy"
+    },
+    {
+      "code": "Z40",
+      "display": "Mūttira Utira Vātam",
+      "definition": "Bladder carcinoma"
+    },
+    {
+      "code": "Z41",
+      "display": "Cukkila Vātam",
+      "definition": "Prostatic carcinoma"
+    },
+    {
+      "code": "Z42",
+      "display": "Cavviraṅka Vātam",
+      "definition": "Aggrevation of vatha and dyspepsial symptoms"
+    },
+    {
+      "code": "Z43",
+      "display": "Ūrttuva Vātam",
+      "definition": "Congestive cardiac failure"
+    },
+    {
+      "code": "Z44",
+      "display": "Aññāṉattampam",
+      "definition": "Laryngeal carcinoma"
+    },
+    {
+      "code": "Z45",
+      "display": "Cirakkampa Vātam",
+      "definition": "Cerebral palsy"
+    },
+    {
+      "code": "Z46",
+      "display": "Catastampa Vātam",
+      "definition": "Hyperthyrodisim"
+    },
+    {
+      "code": "Z48",
+      "display": "Kaṇṭakirākavātam",
+      "definition": "Hypertrophy heart diseases"
+    },
+    {
+      "code": "Z49",
+      "display": "Nakāri Vātam",
+      "definition": "hypothyrodisim"
+    },
+    {
+      "code": "Z50",
+      "display": "Patita Vātam",
+      "definition": "Vatham aggrevation with stammering and impotence"
+    },
+    {
+      "code": "Z51",
+      "display": "Yōṉicūlai Vātam",
+      "definition": "Vaginitis"
+    },
+    {
+      "code": "Z52",
+      "display": "Karppacūlai Vātam",
+      "definition": "Lower abdominal pain with accumulation of blood in uterus"
+    },
+    {
+      "code": "Z53",
+      "display": "Aṣṭacūlai Vātam",
+      "definition": "Aggrevation of vatham and pittham causing inflammation of cervix and ovary"
+    },
+    {
+      "code": "Z54",
+      "display": "Kuṭal Vātam",
+      "definition": "hernia"
+    },
+    {
+      "code": "Z55",
+      "display": "Acuva Vātam",
+      "definition": "Filarial scrotum"
+    },
+    {
+      "code": "Z56",
+      "display": "Meccu Vātam",
+      "definition": "Urinary tract infection"
+    },
+    {
+      "code": "Z57",
+      "display": "Mūṭu Vātam",
+      "definition": "Aggrevation of vatha causing pain in the nape of the neck, anal canal and penis"
+    },
+    {
+      "code": "Z58",
+      "display": "Vacu Vātam",
+      "definition": "Due to aggrevation of vatha shrinking of the intestine and dryness and plascitity of skin"
+    },
+    {
+      "code": "Z59",
+      "display": "Pījastampa Vātam",
+      "definition": "Orchitis"
+    },
+    {
+      "code": "Z60",
+      "display": "Tantira Veṭṭi Vātam",
+      "definition": "Hydrocele"
+    },
+    {
+      "code": "Z61",
+      "display": "Vātacurōṇitam",
+      "definition": "Polyarthritis"
+    },
+    {
+      "code": "Z62",
+      "display": "Cittuvāta Curōṇitam",
+      "definition": "burning sensation all over the body with odema and inflammation"
+    },
+    {
+      "code": "Z64",
+      "display": "Utira Vāta Curōṇitam",
+      "definition": "Rheumatoid arthritis (Initial stage)"
+    },
+    {
+      "code": "Z65",
+      "display": "Payittiya Vāta Curōṇitam",
+      "definition": "Rheumatoid arthritis, Rheumatic fever (Later stage)"
+    },
+    {
+      "code": "Z67",
+      "display": "Utaravāta Curōṇitam",
+      "definition": "Petichial haemorrhage"
+    },
+    {
+      "code": "Z68",
+      "display": "Kuṇa Avatāṉakam",
+      "definition": "Abortion"
+    },
+    {
+      "code": "Z69",
+      "display": "Kaṇṭaka Avatāṉakam",
+      "definition": "Pre eclampsia"
+    },
+    {
+      "code": "Z71",
+      "display": "Vātattalai Nōkkāṭu",
+      "definition": "Vatha aggrevation and headache"
+    },
+    {
+      "code": "Z72",
+      "display": "Pittattalai Nōkkāṭu",
+      "definition": "Maxillary sinisitis"
+    },
+    {
+      "code": "Z73",
+      "display": "Cilēṭṭuma Talai Nōkkāṭu",
+      "definition": "Aiya aggrevation and head ache"
+    },
+    {
+      "code": "Z74",
+      "display": "Caṉṉivāta Nōkkāṭu",
+      "definition": "Mukkutra aggrevation and head ache"
+    },
+    {
+      "code": "Z76",
+      "display": "Kirumikata Nōkkāṭu",
+      "definition": "Ear pain due to infection"
+    },
+    {
+      "code": "Z77",
+      "display": "Cūriyā Varttam Nōkkāṭu",
+      "definition": "Frontal ethmoidal sinisitis"
+    },
+    {
+      "code": "Z78",
+      "display": "Cantirā Varttam Nōkkāṭu",
+      "definition": "Maxillary ethmoidal sinisitis"
+    },
+    {
+      "code": "Z79",
+      "display": "Karṉāvarttam Nōkkāṭu",
+      "definition": "Pain in the ears"
+    },
+    {
+      "code": "Z80",
+      "display": "Oru Talaiyiṉ Vartam",
+      "definition": "Cluster headache"
+    },
+    {
+      "code": "Z81",
+      "display": "Vātakarṉa Cūlai",
+      "definition": "Pain in the ears due to aggrevation of vatha"
+    },
+    {
+      "code": "Z82",
+      "display": "Pittakarṇa Cūlai",
+      "definition": "Pain in the ears due to aggrevation of azhal"
+    },
+    {
+      "code": "Z83",
+      "display": "Cilēṭṭuma Karṇa Cūlai",
+      "definition": "Pain in the ears due to aggrevation of aiyam"
+    },
+    {
+      "code": "Z84",
+      "display": "Kirumikarṉa Cūlai",
+      "definition": "Pain in ears due to infestations"
+    },
+    {
+      "code": "Z85",
+      "display": "Tanta Vāyu",
+      "definition": "Pain in tooth"
+    },
+    {
+      "code": "ZA",
+      "display": "nan"
+    },
+    {
+      "code": "ZAA",
+      "display": "Vaḷi"
+    },
+    {
+      "code": "ZAA1.1",
+      "display": "Vaḷi Cūlai",
+      "definition": "Pain in the extremities"
+    },
+    {
+      "code": "ZAB",
+      "display": "Aẕal"
+    },
+    {
+      "code": "ZAB1.1",
+      "display": "Aẕal Cūlai",
+      "definition": "Weakeness and pain in the whole body"
+    },
+    {
+      "code": "ZAC",
+      "display": "Aiyam"
+    },
+    {
+      "code": "ZAC1.1",
+      "display": "Aiya Cūlai",
+      "definition": "Pain in the lower abdomen"
+    },
+    {
+      "code": "ZAC1.2",
+      "display": "Āma Cūlai",
+      "definition": "Pain in the flanks"
+    },
+    {
+      "code": "ZAC1.3",
+      "display": "Ukkāra Cūlai",
+      "definition": "Muscular growth in the abdoemn and pelvis"
+    },
+    {
+      "code": "Z$1",
+      "display": "Āvuru Pittam",
+      "definition": "Pittha aggrevation and delirium"
+    },
+    {
+      "code": "Z$3",
+      "display": "Uṉmāta Pittam",
+      "definition": "Depressive pyschosis due to aggrevated piththam"
+    },
+    {
+      "code": "Z$4",
+      "display": "Tamanta Pittam",
+      "definition": "Depressive pyschosis due to aggrevated piththam"
+    },
+    {
+      "code": "Z$5",
+      "display": "Vāta Pittam",
+      "definition": "Vitreous opacity"
+    },
+    {
+      "code": "Z$6",
+      "display": "Vaṉṉi Pittam",
+      "definition": "Gastritis"
+    },
+    {
+      "code": "Z$7",
+      "display": "Cilēṭṭuma Pittam",
+      "definition": "Aggrevation of pittham due to aiyam"
+    },
+    {
+      "code": "Z$8",
+      "display": "Curōṇita Pittam",
+      "definition": "Menopausal arthritis"
+    },
+    {
+      "code": "Z$9",
+      "display": "Vikāra Pittam",
+      "definition": "Aggrevation of pittham and hallucination"
+    },
+    {
+      "code": "Z$10",
+      "display": "Viraṇa Pittam",
+      "definition": "Aggrevation of pittham causing wounds and dermatitis"
+    },
+    {
+      "code": "Z$12",
+      "display": "Iratta Pittam",
+      "definition": "Hypertension"
+    },
+    {
+      "code": "Z$13",
+      "display": "Kāca Pittam",
+      "definition": "Pharyngitis"
+    },
+    {
+      "code": "Z$14",
+      "display": "Cuvāca Pittam",
+      "definition": "Bronchitis"
+    },
+    {
+      "code": "Z$15",
+      "display": "Cem Pittam",
+      "definition": "Aggrevation of pittham causing haemataemsis and malena"
+    },
+    {
+      "code": "Z$16",
+      "display": "Karum Pittam",
+      "definition": "Aggrevation of pittham associated with black colour vomiting"
+    },
+    {
+      "code": "Z$17",
+      "display": "Karappāṉ Pittam",
+      "definition": "Dermatitis"
+    },
+    {
+      "code": "Z$18",
+      "display": "Acīraṇa Pittam",
+      "definition": "Indigestion"
+    },
+    {
+      "code": "Z$19",
+      "display": "Aruci Pittam",
+      "definition": "Pitham and dyspepsia"
+    },
+    {
+      "code": "Z$20",
+      "display": "Eripittam",
+      "definition": "Peripheral Neuralgia"
+    },
+    {
+      "code": "Z$21",
+      "display": "Aẕal Pittam",
+      "definition": "Pittham caused due to increased degradation of five elements of pittha"
+    },
+    {
+      "code": "Z$22",
+      "display": "Tuṭi Pittam",
+      "definition": "Palpitation and tremors in the body parts"
+    },
+    {
+      "code": "Z$23",
+      "display": "Viṭa Pittam",
+      "definition": "Toxicity caused due to aggrevation ofpittham"
+    },
+    {
+      "code": "Z$24",
+      "display": "Aticāra Pittam",
+      "definition": "Diarrohea due to pittha aggrevation"
+    },
+    {
+      "code": "Z$25",
+      "display": "Mūla Pittam",
+      "definition": "Haemorroids due to pittha aggrevation"
+    },
+    {
+      "code": "Z$26",
+      "display": "Mutir Pittam",
+      "definition": "Aggrevation of pittham and vesiculation"
+    },
+    {
+      "code": "Z$27",
+      "display": "Kaṇṭa Pittam",
+      "definition": "Laryngitis"
+    },
+    {
+      "code": "Z$28",
+      "display": "ōṭu Pittam",
+      "definition": "Szhcriphernia"
+    },
+    {
+      "code": "Z$30",
+      "display": "Naṭukku Pittam",
+      "definition": "Aggrevation of pittham causing tremors"
+    },
+    {
+      "code": "Z$32",
+      "display": "Cartti Pittam",
+      "definition": "Alcoholic liver disease"
+    },
+    {
+      "code": "Z$33",
+      "display": "Tāka Pittam",
+      "definition": "Aggrevation of pittham and increased thrist"
+    },
+    {
+      "code": "Z$34",
+      "display": "Vikkal Pittam",
+      "definition": "Aggrevation of pittham leading to recurrent hiccups"
+    },
+    {
+      "code": "Z$36",
+      "display": "Timir Pittam",
+      "definition": "Aggrevation of pittham causing neuralgia"
+    },
+    {
+      "code": "Z$37",
+      "display": "Vali Pittam",
+      "definition": "Aggrevation of pittham and pain all over the body"
+    },
+    {
+      "code": "Z$38",
+      "display": "Cīta Pittam",
+      "definition": "Aggrevation of pittham causing perspiration"
+    },
+    {
+      "code": "Z$39",
+      "display": "Kirumi Pittam",
+      "definition": "Aggrevation of pittham and worm infestation"
+    },
+    {
+      "code": "Z$40",
+      "display": "Acāttiya Pittam",
+      "definition": "Psychosis"
+    },
+    {
+      "code": "Z$41",
+      "display": "Mārkka Pittam",
+      "definition": "Aggrevation of pittham causing hallucination"
+    },
+    {
+      "code": "Z$42",
+      "display": "Maruntīṭu Pittam",
+      "definition": "Aggrevation of pittham due to drugs"
+    },
+    {
+      "code": "Z#1",
+      "display": "Irumal",
+      "definition": "Aggravated aiyam lodging in chest and face leading respiratory ailments."
+    },
+    {
+      "code": "Z#2",
+      "display": "Kācam",
+      "definition": "Chronic aiyam leading to pulse deficit."
+    },
+    {
+      "code": "Z#4",
+      "display": "Tīpaṉam",
+      "definition": "Aggravated aiyam leading to hunger-starve."
+    },
+    {
+      "code": "Z#5",
+      "display": "Mantam",
+      "definition": "Aggravated aiyam affecting pancha vayukkal."
+    },
+    {
+      "code": "Z#6",
+      "display": "Vaḷi",
+      "definition": "Aiyam along with Vali affecting genito urinary pathways."
+    },
+    {
+      "code": "Z#7",
+      "display": "Aẕal",
+      "definition": "Aiyam affecting Azhal leading to dizziness."
+    },
+    {
+      "code": "Z#8",
+      "display": "Mukkūṭṭu",
+      "definition": "Aggravated aiyam along with Vali and aiyam causing fever with chills."
+    },
+    {
+      "code": "Z#9",
+      "display": "Cuka Caṉṉi",
+      "definition": "Three humours affected leading to Seizure."
+    },
+    {
+      "code": "Z#10",
+      "display": "Curam",
+      "definition": "Aggravated aiyam with hyper pyrexia."
+    },
+    {
+      "code": "Z#11",
+      "display": "Aticāram",
+      "definition": "Aggravated aiyam leading to Dysentry"
+    },
+    {
+      "code": "Z#12",
+      "display": "Nīrkkōvai",
+      "definition": "Aggravated aiyam leading to Polyurea"
+    },
+    {
+      "code": "Z#13",
+      "display": "Aṉal",
+      "definition": "Aggravated aiyam with fire element results in aggressive burning iin corpse"
+    },
+    {
+      "code": "Z#14",
+      "display": "Pūtam",
+      "definition": "Aggravated aiyam leading to Schizophrenia"
+    },
+    {
+      "code": "Z#16",
+      "display": "Veṟi",
+      "definition": "Aggravated aiyam leading to Catatonia"
+    },
+    {
+      "code": "Z#17",
+      "display": "Vikāram",
+      "definition": "Aggravated aiyam with depressive Psychosis"
+    },
+    {
+      "code": "Z#18",
+      "display": "Curōṇitam",
+      "definition": "Aggravated aiyam with Rheumatism."
+    },
+    {
+      "code": "Z#19",
+      "display": "Viraṇam",
+      "definition": "Aggravated aiyam leading to ulceration in throat"
+    }
+  ]
+}
