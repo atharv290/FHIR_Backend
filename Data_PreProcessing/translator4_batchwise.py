@@ -7,7 +7,7 @@ import time
 import traceback  # 👈 for full error details
 
 # 🔑 Configure Gemini
-genai.configure(api_key="AIzaSyBzV7gTQlfWRsACS83ktwW23X0f_7LVr00")
+genai.configure(api_key="Your-API-Key")
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 # File paths
