@@ -3,30 +3,26 @@
 
 A scalable and modular **FHIR-based Terminology Service** built using **Node.js (Express)** following clean **MVC Architecture** principles.
 
-This API provides terminology operations such as:
-
-- 🔍 Search (NAMC ↔ ICD)
-- 🔁 Translate (ICD → NAMC)
-- 📝 Autocomplete
-- 📦 ValueSet Expansion ($expand)
-
-Designed for healthcare interoperability systems and FHIR-compliant environments.
+This system bridges **NAMASTE (National AYUSH Morbidity Codes)** with **ICD-11 TM2** to enable healthcare interoperability between traditional medicine systems and global clinical standards.
 
 ---
 
-## 🚀 Features
+# 🚀 Key Features
 
-- ✅ Clean MVC Architecture
-- ✅ FHIR-like API responses
-- ✅ In-memory JSON terminology engine
-- ✅ Pagination support
-- ✅ CORS enabled (Frontend ready)
-- ✅ Modular and scalable structure
-- ✅ Production-ready code organization
+- 🔍 NAMC ↔ ICD-11 Search  
+- 🔁 ICD → NAMC Translation  
+- 📝 Smart Autocomplete  
+- 📦 FHIR-like `$expand` (ValueSet expansion)  
+- 🧠 Hybrid Deterministic + AI Mapping Pipeline  
+- ✅ Clean MVC architecture  
+- ✅ FHIR-style JSON responses  
+- ✅ Pagination support  
+- ✅ CORS enabled (Frontend ready)  
+- ✅ Modular & production-ready structure  
 
 ---
 
-## 🏗️ Project Structure
+# 🏗️ Backend Architecture (MVC)
 
 ```
 fhir-terminology-api/
@@ -52,54 +48,140 @@ fhir-terminology-api/
         └── atharva_conceptmap.json
 ```
 
----
+## Layer Responsibilities
 
-## 🧠 Architecture (MVC Pattern)
-
-| Layer        | Responsibility |
-|-------------|---------------|
-| **Model**        | Handles terminology logic & data processing |
-| **Controller**   | Manages request & response flow |
-| **Routes**       | Defines API endpoints |
-| **Config**       | Loads JSON data |
-| **Server/App**   | Bootstraps Express application |
+| Layer | Responsibility |
+|--------|---------------|
+| **Model** | Terminology logic, filtering, mapping, pagination |
+| **Controller** | Handles HTTP requests & FHIR-like responses |
+| **Routes** | API endpoint definitions |
+| **Config** | Loads terminology JSON files |
+| **Server/App** | Express bootstrap & middleware setup |
 
 ---
 
-## 🛠️ Installation
+# 🧠 Terminology Engineering Pipeline (Data_PreProcessing)
 
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/your-username/fhir-terminology-api.git
-cd fhir-terminology-api
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
-npm install
-```
-
-### 3️⃣ Run Server
-
-```bash
-node server.js
-```
-
-Server will start at:
+This project includes a structured terminology mapping pipeline that converts raw NAMASTE Excel data into FHIR-compliant artifacts.
 
 ```
-http://localhost:8000
+Data_PreProcessing/
+│
+├── Data/
+│   ├── NATIONAL SIDDHA MORBIDITY CODES.xls
+│   └── namaste_with_icd.xlsx
+│
+├── ICD11TM2_Search.py
+├── translator4_batchwise.py
+├── ConceptMap_CodeSystem_Generator.py
 ```
 
 ---
 
-## 📡 API Endpoints
+# 📊 Source Dataset
+
+The raw NAMASTE dataset includes:
+
+- NAMC_ID  
+- NAMC_CODE  
+- NAMC_TERM  
+- Tamil Term  
+- Short Definition  
+- Long Definition  
+- English Translation  
+- Clinical References  
+
+This multilingual + descriptive dataset enables semantic-level mapping.
 
 ---
 
-### 🔍 Search
+# ⚙️ Hybrid Terminology Matching Strategy
+
+Healthcare terminology mapping is complex because:
+
+- Traditional medicine terms may not have exact ICD equivalents  
+- Regional language terms differ from standardized medical vocabulary  
+- Some mappings are conceptual rather than literal  
+
+To solve this, we implemented a **3-layer hybrid matching pipeline**:
+
+---
+
+## 1️⃣ Deterministic ICD-11 TM2 Lookup
+
+Script: `ICD11TM2_Search.py`
+
+- Automates ICD-11 TM2 browser search (via Selenium)  
+- Searches NAMC terms directly on official WHO ICD-11 platform  
+- Extracts:
+  - ICD Code  
+  - ICD Title  
+- Updates Excel sheet batch-wise  
+- Ensures high-confidence, authoritative mappings  
+
+✔ Used when exact ICD match exists  
+✔ Highest confidence level  
+
+---
+
+## 2️⃣ AI-Assisted Semantic Matching (Fallback Layer)
+
+Script: `translator4_batchwise.py`
+
+When no exact match is found:
+
+- Uses:
+  - Long definitions  
+  - Short definitions  
+  - English translations  
+  - Tamil terms  
+  - Transliteration  
+- Applies LLM-based semantic similarity matching  
+- Finds closest ICD concept  
+- Flags uncertain matches for review  
+
+✔ Improves coverage  
+✔ Handles conceptual and linguistic variations  
+✔ Reduces manual effort  
+
+---
+
+## 3️⃣ FHIR Resource Generation
+
+Script: `ConceptMap_CodeSystem_Generator.py`
+
+After validation:
+
+- Generates **FHIR CodeSystem** (NAMASTE codes)  
+- Generates **FHIR ConceptMap** (NAMC ↔ ICD-11 mapping)  
+
+These artifacts power the Node.js terminology API.
+
+---
+
+# 🏗️ End-to-End Architecture Flow
+
+```
+Excel Source (NAMASTE Terms)
+        ↓
+Data Cleaning & Transliteration
+        ↓
+Deterministic ICD Lookup (Selenium)
+        ↓
+AI Semantic Matching (LLM Fallback)
+        ↓
+Validation & Confidence Check
+        ↓
+FHIR CodeSystem + ConceptMap JSON
+        ↓
+Node.js Terminology API (MVC)
+```
+
+---
+
+# 📡 API Endpoints
+
+## 🔍 Search
 
 Search by NAMC term, NAMC code, or ICD code.
 
@@ -107,7 +189,7 @@ Search by NAMC term, NAMC code, or ICD code.
 GET /search
 ```
 
-#### Examples:
+Examples:
 
 ```
 /search?namc_term=liver
@@ -117,7 +199,7 @@ GET /search
 
 ---
 
-### 🔁 Translate
+## 🔁 Translate
 
 Translate ICD → NAMC
 
@@ -127,9 +209,7 @@ GET /translate?icd_code=K70
 
 ---
 
-### 📝 Autocomplete
-
-Autocomplete NAMC terms.
+## 📝 Autocomplete
 
 ```
 GET /autocomplete?query=liv&limit=5
@@ -137,15 +217,13 @@ GET /autocomplete?query=liv&limit=5
 
 ---
 
-### 📦 Expand (FHIR-like $expand)
-
-Mimics FHIR ValueSet expansion.
+## 📦 Expand (FHIR-like `$expand`)
 
 ```
 GET /expand?filter=liver&count=10&offset=0
 ```
 
-#### Sample Response:
+### Sample Response
 
 ```json
 {
@@ -161,37 +239,54 @@ GET /expand?filter=liver&count=10&offset=0
 
 ---
 
-## 🏥 FHIR Alignment
+# 🏥 FHIR Alignment
 
 This API mimics key FHIR terminology operations:
 
-- `$expand`
-- `$translate`
-- ConceptMap-based mapping
-- Terminology search & filtering
+- `$expand`  
+- `$translate`  
+- ConceptMap-based mapping  
+- Terminology search & filtering  
 
-It can be extended to full **HL7 FHIR R4 compliance**.
-
----
-
-## ⚙️ Tech Stack
-
-- Node.js
-- Express.js
-- MVC Architecture
-- CORS
-- JSON-based terminology store
+Designed to be extendable to **HL7 FHIR R4 compliance**.
 
 ---
 
-## 🔮 Future Enhancements
+# 🛠️ Installation
 
-- MongoDB integration
-- ElasticSearch for fast indexing
-- Redis caching
-- Swagger documentation
-- Docker deployment
-- Full FHIR R4 compliance
+```bash
+git clone https://github.com/atharv290/FHIR_Backend.git
+cd FHIR_Backend
+npm install
+node server.js
+```
+
+Server runs at:
+
+```
+http://localhost:8000
+```
+
+---
+
+# 🧩 Tech Stack
+
+- Node.js  
+- Express.js  
+- MVC Architecture  
+- Selenium (ICD lookup automation)  
+- LLM-assisted semantic matching  
+- JSON-based terminology store  
+
+---
+
+# 🎯 Why This Project Matters
+
+- Bridges Traditional Medicine and Modern Clinical Coding  
+- Enables Healthcare Interoperability  
+- Automates complex terminology engineering  
+- Produces FHIR-compliant terminology artifacts  
+- Demonstrates scalable backend architecture  
 
 ---
 
